@@ -1,0 +1,79 @@
+.category {
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.category:nth-of-type(even){
+    justify-content: start;
+}
+
+.snoek {
+    background-image:
+            linear-gradient(to bottom, rgba(39, 178, 148, 0.260), rgba(39, 178, 148, 0.260)),
+            url('../assets/images/pike-img.jpg');
+    background-position: center 30%;
+}
+
+.snoekbaars {
+    background-image:
+            linear-gradient(to bottom, rgba(172, 206, 116, 0.350), rgba(172, 206, 116, 0.350)),
+            url('../assets/images/zander-img.jpg');
+    background-position: center 30%;
+
+}
+
+.streetfishing {
+    background-image:
+            linear-gradient(to bottom, rgba(39, 178, 148, 0.200), rgba(39, 178, 148, 0.200)),
+            url('../assets/images/streetfishing-img.jpg');
+    background-position: center center;
+
+}
+
+.baars {
+    background-image:
+            linear-gradient(to bottom, #00000036, #00000036),
+            url('../assets/images/perch-img.jpg');
+    background-position: center 30%;
+
+}
+
+.product-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+    font-family: "Sen-Regular", sans-serif;
+}
+
+.cta{
+    color: white;
+    border: none;
+    font-size: 22px;
+    padding: .7em 2.2em;
+    border-radius: 50px;
+    background-color: #27B295;
+    font-family: "Sen-Bold", sans-serif;
+    transition: .3s;
+    box-shadow: 0px 3px 6px #0000001a;
+
+}
+.cta:hover {
+    color: #27B295;
+    background-color: #fff;
+    box-shadow: none;
+}
+.title {
+    font-size: 42px;
+    color: white;
+    margin-bottom: .4em;
+}
+.small-title{
+    font-size: 38px;
+}

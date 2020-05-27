@@ -15,44 +15,44 @@ html {
 
 /* -=-=-=-=-=- FONTS -=-=-=-=-=- */
 @font-face {
-    font-family: "Open Sans";
+    font-family: "OpenSans";
     src: url("../assets/fonts/OpenSans-Regular.woff2");
 }
 @font-face {
-    font-family: "Open Sans";
+    font-family: "OpenSans-Bold";
     src: url("../assets/fonts/OpenSans-Bold.woff2");
 }
 @font-face {
-    font-family: "Open Sans";
+    font-family: "OpenSans-BoldItalic";
     src: url("../assets/fonts/OpenSans-BoldItalic.woff2");
 }
 @font-face {
-    font-family: "Open Sans";
+    font-family: "OpenSans-ExtraBold";
     src: url("../assets/fonts/OpenSans-ExtraBold.woff2");
 }
 @font-face {
-    font-family: "Open Sans";
+    font-family: "OpenSans-ExtraBoldItalic";
     src: url("../assets/fonts/OpenSans-ExtraBoldItalic.woff2");
 }
 @font-face {
-    font-family: "Open Sans";
+    font-family: "OpenSans-Italic";
     src: url("../assets/fonts/OpenSans-Italic.woff2");
 }
 
 @font-face {
-    font-family: "Open Sans";
+    font-family: "OpenSans-Light";
     src: url("../assets/fonts/OpenSans-Light.woff2");
 }
 @font-face {
-    font-family: "Open Sans";
+    font-family: "OpenSans-LightItalic";
     src: url("../assets/fonts/OpenSans-LightItalic.woff2");
 }
 @font-face {
-    font-family: "Open Sans";
+    font-family: "OpenSans-SemiBold";
     src: url("../assets/fonts/OpenSans-SemiBold.woff2");
 }
 @font-face {
-    font-family: "Open Sans";
+    font-family: "OpenSans-SemiBoldItalic";
     src: url("../assets/fonts/OpenSans-SemiBoldItalic.woff2");
 }
 @font-face {
@@ -120,6 +120,7 @@ nav {
 }
 .nav-middle{
     width: 65%;
+    height: 100%;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -127,10 +128,15 @@ nav {
     align-items: center;
 }
 .nav-middle  a {
-    margin: 0 20px;
+    padding: 24px 20px;
     color: white;
     font-family: "Sen-Regular", sans-serif;
     text-decoration: none;
+    transition: .2s
+}
+.nav-middle  a:hover {
+    background-color: #27B295;
+    color: white;
 }
 
 .nav-right svg {
@@ -138,7 +144,13 @@ nav {
     width: auto;
     fill: white;
     margin-left: 20px;
+    padding: 12.5px 0;
+    transition: .22s;
 }
+.nav-right svg:hover {
+    fill: #32E0BC;
+}
+
 
 
 
@@ -176,70 +188,14 @@ nav {
 /* container start */
 
 .container {
-    width: 100%;
-    margin: 100px auto;
+    width: 1000px;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.catagorie {
-    background-size: cover;
-    width: 80%;
-    margin: auto;
-    height: 250px;
-}
 
-.snoek {
-    background-image:
-            linear-gradient(to bottom, rgba(39, 178, 148, 0.260), rgba(39, 178, 148, 0.260)),
-            url('../assets/images/pike-img.jpg');
-}
-
-.snoekbaars {
-    background-image:
-            linear-gradient(to bottom, rgba(172, 206, 116, 0.350), rgba(172, 206, 116, 0.350)),
-            url('../assets/images/zander-img.jpg');
-}
-
-.streetfishing {
-    background-image:
-            linear-gradient(to bottom, rgba(39, 178, 148, 0.200), rgba(39, 178, 148, 0.200)),
-            url('../assets/images/streetfishing-img.jpg');
-}
-
-.baars {
-    background-image:
-            linear-gradient(to bottom, #00000036, #00000036),
-            url('../assets/images/perch-img.jpg');
-}
-
-.product-text {
-    display: flex;
-    flex-direction: column;
-    margin: 43px 0px 50px 60px;
-}
-
-.product-text button {
-    width: 300px;
-    height: 60px;
-    color: white;
-    border: none;
-    font-size: 22px;
-    border-radius: 50px;
-    background-color: #27B295;
-}
-
-.product-text span {
-    font-size: 58px;
-    color: white;
-    margin-bottom: 30px;
-}
-
-.right {
-    margin: 43px 80px 50px 0px;
-    float: right;
-}
 
 .container div:not(:first-child) {
     margin-top: 19px;

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="/css/{{$css}}.css">
     <title>Lurebox - {{$pagina}}</title>
     @yield('stylesheets')
 </head>
@@ -31,7 +32,10 @@
     <div class="container">
     </div>
     <main>
+        <div class="container">
+
         @yield('main')
+        </div>
     </main>
     <footer>
 
