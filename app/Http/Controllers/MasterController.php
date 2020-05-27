@@ -12,16 +12,16 @@ namespace App\Http\Controllers;
 class MasterController
 {
     public function showHome(){
-    $pagina = "Home";
-    $css = strtolower($pagina);
-    $active = $css;
-    return view('home', ['pagina' => $pagina, 'css' => $css, 'active' => $active]);
+    $titel = "Home";
+    $pagina = strtolower($titel);
+    $active = $pagina;
+    return view('home', ['pagina' => $titel, 'css' => $pagina, 'active' => $active]);
     }
 
     public function showProducts(){
-        $pagina = "Producten";
-        $css = strtolower($pagina);
-        $active = $css;
-        return view('producten', ['pagina' => $pagina, 'css' => $css, 'active' => $active]);
+        $titel = "Producten";
+        $pagina = strtolower($titel);
+        $active = $pagina;
+        return view('producten', ['pagina' => $titel, 'css' => $pagina, 'active' => $active]);
     }
 }

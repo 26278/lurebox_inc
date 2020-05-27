@@ -40,4 +40,7 @@
     <footer>
 
     </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script type="text/javascript" src="/js/master.js"></script>
+    <script type="text/javascript" src="/js/{{$css}}.js"></script>
 </body>
