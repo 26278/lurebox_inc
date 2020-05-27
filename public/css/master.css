@@ -1,0 +1,246 @@
+/* -=-=-=-=-=- GENERAL CSS -=-=-=-=-=- */
+
+html {
+    font-size: 12px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+@media screen and (min-width: 800px) {
+    html {
+        font-size: 17px;
+    }
+}
+
+/* -=-=-=-=-=- FONTS -=-=-=-=-=- */
+@font-face {
+    font-family: "Open Sans";
+    src: url("../assets/fonts/OpenSans-Regular.woff2");
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../assets/fonts/OpenSans-Bold.woff2");
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../assets/fonts/OpenSans-BoldItalic.woff2");
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../assets/fonts/OpenSans-ExtraBold.woff2");
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../assets/fonts/OpenSans-ExtraBoldItalic.woff2");
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../assets/fonts/OpenSans-Italic.woff2");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../assets/fonts/OpenSans-Light.woff2");
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../assets/fonts/OpenSans-LightItalic.woff2");
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../assets/fonts/OpenSans-SemiBold.woff2");
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../assets/fonts/OpenSans-SemiBoldItalic.woff2");
+}
+@font-face {
+    font-family: "Sen-Regular";
+    src: url("../assets/fonts/Sen-Regular.woff2");
+}
+@font-face {
+    font-family: "Sen-Bold";
+    src: url("../assets/fonts/Sen-Bold.woff2");
+}
+@font-face {
+    font-family: "Sen-ExtraBold";
+    src: url("../assets/fonts/Sen-ExtraBold.woff2");
+}
+
+
+
+
+/* -=-=-=-=-=- NAV -=-=-=-=-=- */
+
+nav {
+    position: relative;
+    background: #125D4D;
+    color: white;
+    width: 100%;
+    height: 65px;
+    margin-top: 65px;
+    box-shadow: 0px 3px 6px #0000001a;
+}
+.nav-content{
+    position: relative;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+    position: relative;
+    width: 176px;
+    top: 0;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    box-shadow: 0px 3px 6px #0000001a;
+
+}
+.nav-left>*{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo{
+    position: relative;
+    flex-shrink: 0;
+    width: 80%;
+}
+.nav-middle{
+    width: 65%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-middle  a {
+    margin: 0 20px;
+    color: white;
+    font-family: "Sen-Regular", sans-serif;
+    text-decoration: none;
+}
+
+.nav-right svg {
+    height: 40px;
+    width: auto;
+    fill: white;
+    margin-left: 20px;
+}
+
+
+
+
+/*.nav-logo {*/
+    /*height: 200px;*/
+    /*width: 175px;*/
+    /*background: white;*/
+    /*display: flex;*/
+    /*box-shadow: 0px 3px 6px #0000001a;*/
+    /*position: relative;*/
+    /*align-items: center;*/
+/*}*/
+
+/*.nav-logo img {*/
+    /*width: 140px;*/
+    /*height: 140px;*/
+/*}*/
+
+/*.nav-right {*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*width: 136px;*/
+/*}*/
+
+
+
+/*.nav-left {*/
+    /*width: 312px;*/
+    /*display: flex;*/
+    /*margin-right: 40%;*/
+    /*justify-content: space-between;*/
+/*}*/
+
+/* container start */
+
+.container {
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.catagorie {
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    height: 250px;
+}
+
+.snoek {
+    background-image:
+            linear-gradient(to bottom, rgba(39, 178, 148, 0.260), rgba(39, 178, 148, 0.260)),
+            url('../assets/images/pike-img.jpg');
+}
+
+.snoekbaars {
+    background-image:
+            linear-gradient(to bottom, rgba(172, 206, 116, 0.350), rgba(172, 206, 116, 0.350)),
+            url('../assets/images/zander-img.jpg');
+}
+
+.streetfishing {
+    background-image:
+            linear-gradient(to bottom, rgba(39, 178, 148, 0.200), rgba(39, 178, 148, 0.200)),
+            url('../assets/images/streetfishing-img.jpg');
+}
+
+.baars {
+    background-image:
+            linear-gradient(to bottom, #00000036, #00000036),
+            url('../assets/images/perch-img.jpg');
+}
+
+.product-text {
+    display: flex;
+    flex-direction: column;
+    margin: 43px 0px 50px 60px;
+}
+
+.product-text button {
+    width: 300px;
+    height: 60px;
+    color: white;
+    border: none;
+    font-size: 22px;
+    border-radius: 50px;
+    background-color: #27B295;
+}
+
+.product-text span {
+    font-size: 58px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.right {
+    margin: 43px 80px 50px 0px;
+    float: right;
+}
+
+.container div:not(:first-child) {
+    margin-top: 19px;
+}
