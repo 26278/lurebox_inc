@@ -187,16 +187,3 @@ nav {
 
 /* container start */
 
-.container {
-    width: 1000px;
-    margin: 50px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
-
-.container div:not(:first-child) {
-    margin-top: 19px;
-}

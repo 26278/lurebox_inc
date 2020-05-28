@@ -32,7 +32,6 @@
     <div class="container">
     </div>
     <main>
-        <div class="container">
 
         @yield('main')
         </div>
