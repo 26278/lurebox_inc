@@ -38,9 +38,9 @@ openPike.to('.back-button', .5, { opacity: 1 } );
 openPike.set('.pike-product-section', { display: "flex"}, "+=.5" );
 openPike.to('.pike-product-section', .3, { opacity: 1 } );
 openPike.to('.pike-description-content', .3, { opacity: 1, x: 0 } );
+openPike.set('.streetfishing-container, .perch-container, .zander-container', { display: "none" } );
 openPike.to('.pike-boxes>*', .9, { stagger: .2, opacity: 1, y: 0 } );
 
-openPike.set('.streetfishing, .baars, .snoekbaars', { display: "none" } );
 
 
 pike.addEventListener("click", function(){
@@ -66,9 +66,9 @@ openZander.to('.back-button', .5, { opacity: 1 } );
 openZander.set('.zander-product-section', { y: -220, display: "flex"}, "+=.5" );
 openZander.to('.zander-product-section', .3, { opacity: 1 } );
 openZander.to('.zander-description-content', .3, { opacity: 1, x: 0 } );
+openZander.set('.streetfishing-container, .perch-container', { display: "none" } );
 openZander.to('.zander-boxes>*', .9, { stagger: .2, opacity: 1, y: 0 } );
 
-openZander.set('.streetfishing, .baars', { display: "none" } );
 
 
 zander.addEventListener("click", function(){
@@ -97,7 +97,7 @@ openPerch.to('.perch-product-section', .3, { opacity: 1 } );
 openPerch.to('.perch-description-content', .3, { opacity: 1, x: 0 } );
 openPerch.to('.perch-boxes>*', .9, { stagger: .2, opacity: 1, y: 0 } );
 
-openPerch.set('.streetfishing', { display: "none" } );
+openPerch.set('.streetfishing, .streetfishing-container', { display: "none" } );
 
 
 perch.addEventListener("click", function(){
@@ -124,9 +124,6 @@ openStreetfishing.set('.streetfishing-product-section', { y: -660, display: "fle
 openStreetfishing.to('.streetfishing-product-section', .3, { opacity: 1 } );
 openStreetfishing.to('.streetfishing-description-content', .3, { opacity: 1, x: 0 } );
 openStreetfishing.to('.streetfishing-boxes>*', .9, { stagger: .2, opacity: 1, y: 0 } );
-
-// openStreetfishing.set('.streetfishing', { display: "none" } );
-
 
 streetfishing.addEventListener("click", function(){
    openStreetfishing.play();

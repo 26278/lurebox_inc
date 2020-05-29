@@ -429,8 +429,8 @@
                 <button id="perch-button" class="cta" type="submit">Bekijk Lureboxes</button>
             </div>
             <div class="clicked-text" style="display: none; opacity: 0;">
-                <h2 class="clicked-title">Snoek Lureboxes</h2>
-                <p class="clicked-paragraph">Voor kantvisserij, bootvisserij en<br> bootvisserij met XL kunstaas.</p>
+                <h2 class="clicked-title">Baars Lureboxes</h2>
+                <p class="clicked-paragraph">Voor allround baarsvisserij en<br>de Texas- en Carolina Rig.</p>
             </div>
         </div>
     </div>
@@ -506,7 +506,7 @@
             </div>
         </div>
 
-        <div class="container boxes perch-boxes">
+        <div class="container boxes perch-boxes two-boxes">
             <div class="box" style="opacity: 0;">
                 <h2 class="box-title">'Guppy' box</h2>
                 <p class="box-amount">Ongeveer 3 à 4 verschillende<br>
@@ -539,81 +539,6 @@
                     VOEG TOE
                 </button>
             </div>
-
-            <div class="box" style="opacity: 0;">
-                <h2 class="box-title">'Big one' box</h2>
-                <p class="box-amount">Ongeveer 3 à 4 verschillende<br>
-                    soorten kunstaas.
-                </p>
-                <img src="/assets/images/cardboard.jpg" alt="box" class="cartboard-img">
-                <h2 class="box-price">€34,99 <span class="price-small">/ maand</span></h2>
-                <p class="box-slogan">Met deze selectie aan kunstaas kan je direct aan de slag.</p>
-                <p class="box-desc">Deze box bevat een paar soorten kunstaas van verschillende merken, met een totaalwaarde van ongeveer €20,-. </p>
-                <button class="cta">
-                    <svg class="button-cart" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.37-.66-.11-1.48-.87-1.48H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
-                    VOEG TOE
-                </button>
-            </div>
-        </div>
-        <div class="description-section">
-            <div class="description-content perch-description-content" style="opacity: 0;">
-                <h3 class="desc-title">Lureboxes voor de XL Bootvisserij</h3>
-                <p class="desc-paragraph">
-                    Het kunstaas heeft een lengte van 8cm tot 16cm en een gewicht van 5g tot 60g.<br>
-                    Deze box bestaat voornamelijk uit: jerkbaits, swimbaits, softbaits, crankbaits, topwaters en chatterbaits.<br>
-                    Altijd geleverd met een 7strand titanium onderlijn zodat je direct aan de slag kan aan de waterkant.
-                </p>
-            </div>
-        </div>
-
-        <div class="container boxes perch-boxes">
-            <div class="box" style="opacity: 0;">
-                <h2 class="box-title">'Guppy' box</h2>
-                <p class="box-amount">Ongeveer 3 à 4 verschillende<br>
-                    soorten kunstaas.
-                </p>
-                <img src="/assets/images/cardboard.jpg" alt="box" class="cartboard-img">
-                <h2 class="box-price">€14,99 <span class="price-small">/ maand</span></h2>
-                <p class="box-slogan">Met deze selectie aan kunstaas kan je direct aan de slag.</p>
-                <p class="box-desc">Deze box bevat een paar soorten kunstaas van verschillende merken, met een totaalwaarde van ongeveer €20,-. </p>
-                <button class="cta">
-                    <svg class="button-cart" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.37-.66-.11-1.48-.87-1.48H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
-                    VOEG TOE
-                </button>
-            </div>
-
-            <div class="box" style="opacity: 0;">
-                <div class="mostsold-container">
-                    <h2 class="mostsold">Meest gekocht</h2>
-                </div>
-                <h2 class="box-title">'Decent one' box</h2>
-                <p class="box-amount">Ongeveer 3 à 4 verschillende<br>
-                    soorten kunstaas.
-                </p>
-                <img src="/assets/images/cardboard.jpg" alt="box" class="cartboard-img">
-                <h2 class="box-price">€24,99 <span class="price-small">/ maand</span></h2>
-                <p class="box-slogan">Met deze selectie aan kunstaas kan je direct aan de slag.</p>
-                <p class="box-desc">Deze box bevat een paar soorten kunstaas van verschillende merken, met een totaalwaarde van ongeveer €20,-. </p>
-                <button class="cta">
-                    <svg class="button-cart" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.37-.66-.11-1.48-.87-1.48H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
-                    VOEG TOE
-                </button>
-            </div>
-
-            <div class="box" style="opacity: 0;">
-                <h2 class="box-title">'Big one' box</h2>
-                <p class="box-amount">Ongeveer 3 à 4 verschillende<br>
-                    soorten kunstaas.
-                </p>
-                <img src="/assets/images/cardboard.jpg" alt="box" class="cartboard-img">
-                <h2 class="box-price">€34,99 <span class="price-small">/ maand</span></h2>
-                <p class="box-slogan">Met deze selectie aan kunstaas kan je direct aan de slag.</p>
-                <p class="box-desc">Deze box bevat een paar soorten kunstaas van verschillende merken, met een totaalwaarde van ongeveer €20,-. </p>
-                <button class="cta">
-                    <svg class="button-cart" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.37-.66-.11-1.48-.87-1.48H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
-                    VOEG TOE
-                </button>
-            </div>
         </div>
         <div class="description-section">
             <div class="description-content perch-description-content" style="opacity: 0;">
@@ -635,8 +560,8 @@
                 <button id="streetfishing-button" class="cta" type="submit">Bekijk Lureboxes</button>
             </div>
             <div class="clicked-text" style="display: none; opacity: 0;">
-                <h2 class="clicked-title">Snoek Lureboxes</h2>
-                <p class="clicked-paragraph">Voor kantvisserij, bootvisserij en<br> bootvisserij met XL kunstaas.</p>
+                <h2 class="clicked-title">Streetfishing Lureboxes</h2>
+                <p class="clicked-paragraph">Gratis verzendkosten, altijd opzegbaar.</p>
             </div>
         </div>
     </div>
@@ -693,126 +618,6 @@
                 </p>
                 <img src="/assets/images/cardboard.jpg" alt="box" class="cartboard-img">
                 <h2 class="box-price">34,99 <span class="price-small">/ maand</span></h2>
-                <p class="box-slogan">Met deze selectie aan kunstaas kan je direct aan de slag.</p>
-                <p class="box-desc">Deze box bevat een paar soorten kunstaas van verschillende merken, met een totaalwaarde van ongeveer €20,-. </p>
-                <button class="cta">
-                    <svg class="button-cart" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.37-.66-.11-1.48-.87-1.48H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
-                    VOEG TOE
-                </button>
-            </div>
-        </div>
-        <div class="description-section">
-            <div class="description-content streetfishing-description-content" style="opacity: 0;">
-                <h3 class="desc-title">Lureboxes voor de standaard Bootvisserij</h3>
-                <p class="desc-paragraph">
-                    Het kunstaas heeft een lengte van 8cm tot 16cm en een gewicht van 5g tot 60g.<br>
-                    Deze box bestaat voornamelijk uit: jerkbaits, swimbaits, softbaits, crankbaits, topwaters en chatterbaits.<br>
-                    Altijd geleverd met een 7strand titanium onderlijn zodat je direct aan de slag kan aan de waterkant.<br>
-                </p>
-            </div>
-        </div>
-
-        <div class="container boxes streetfishing-boxes">
-            <div class="box" style="opacity: 0;">
-                <h2 class="box-title">'Guppy' box</h2>
-                <p class="box-amount">Ongeveer 3 à 4 verschillende<br>
-                    soorten kunstaas.
-                </p>
-                <img src="/assets/images/cardboard.jpg" alt="box" class="cartboard-img">
-                <h2 class="box-price">€14,99 <span class="price-small">/ maand</span></h2>
-                <p class="box-slogan">Met deze selectie aan kunstaas kan je direct aan de slag.</p>
-                <p class="box-desc">Deze box bevat een paar soorten kunstaas van verschillende merken, met een totaalwaarde van ongeveer €20,-. </p>
-                <button class="cta">
-                    <svg class="button-cart" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.37-.66-.11-1.48-.87-1.48H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
-                    VOEG TOE
-                </button>
-            </div>
-
-            <div class="box" style="opacity: 0;">
-                <div class="mostsold-container">
-                    <h2 class="mostsold">Meest gekocht</h2>
-                </div>
-                <h2 class="box-title">'Decent one' box</h2>
-                <p class="box-amount">Ongeveer 3 à 4 verschillende<br>
-                    soorten kunstaas.
-                </p>
-                <img src="/assets/images/cardboard.jpg" alt="box" class="cartboard-img">
-                <h2 class="box-price">24,99 <span class="price-small">/ maand</span></h2>
-                <p class="box-slogan">Met deze selectie aan kunstaas kan je direct aan de slag.</p>
-                <p class="box-desc">Deze box bevat een paar soorten kunstaas van verschillende merken, met een totaalwaarde van ongeveer €20,-. </p>
-                <button class="cta">
-                    <svg class="button-cart" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.37-.66-.11-1.48-.87-1.48H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
-                    VOEG TOE
-                </button>
-            </div>
-
-            <div class="box" style="opacity: 0;">
-                <h2 class="box-title">'Big one' box</h2>
-                <p class="box-amount">Ongeveer 3 à 4 verschillende<br>
-                    soorten kunstaas.
-                </p>
-                <img src="/assets/images/cardboard.jpg" alt="box" class="cartboard-img">
-                <h2 class="box-price">€34,99 <span class="price-small">/ maand</span></h2>
-                <p class="box-slogan">Met deze selectie aan kunstaas kan je direct aan de slag.</p>
-                <p class="box-desc">Deze box bevat een paar soorten kunstaas van verschillende merken, met een totaalwaarde van ongeveer €20,-. </p>
-                <button class="cta">
-                    <svg class="button-cart" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.37-.66-.11-1.48-.87-1.48H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
-                    VOEG TOE
-                </button>
-            </div>
-        </div>
-        <div class="description-section">
-            <div class="description-content streetfishing-description-content" style="opacity: 0;">
-                <h3 class="desc-title">Lureboxes voor de XL Bootvisserij</h3>
-                <p class="desc-paragraph">
-                    Het kunstaas heeft een lengte van 8cm tot 16cm en een gewicht van 5g tot 60g.<br>
-                    Deze box bestaat voornamelijk uit: jerkbaits, swimbaits, softbaits, crankbaits, topwaters en chatterbaits.<br>
-                    Altijd geleverd met een 7strand titanium onderlijn zodat je direct aan de slag kan aan de waterkant.
-                </p>
-            </div>
-        </div>
-
-        <div class="container boxes streetfishing-boxes">
-            <div class="box" style="opacity: 0;">
-                <h2 class="box-title">'Guppy' box</h2>
-                <p class="box-amount">Ongeveer 3 à 4 verschillende<br>
-                    soorten kunstaas.
-                </p>
-                <img src="/assets/images/cardboard.jpg" alt="box" class="cartboard-img">
-                <h2 class="box-price">€14,99 <span class="price-small">/ maand</span></h2>
-                <p class="box-slogan">Met deze selectie aan kunstaas kan je direct aan de slag.</p>
-                <p class="box-desc">Deze box bevat een paar soorten kunstaas van verschillende merken, met een totaalwaarde van ongeveer €20,-. </p>
-                <button class="cta">
-                    <svg class="button-cart" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.37-.66-.11-1.48-.87-1.48H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
-                    VOEG TOE
-                </button>
-            </div>
-
-            <div class="box" style="opacity: 0;">
-                <div class="mostsold-container">
-                    <h2 class="mostsold">Meest gekocht</h2>
-                </div>
-                <h2 class="box-title">'Decent one' box</h2>
-                <p class="box-amount">Ongeveer 3 à 4 verschillende<br>
-                    soorten kunstaas.
-                </p>
-                <img src="/assets/images/cardboard.jpg" alt="box" class="cartboard-img">
-                <h2 class="box-price">€24,99 <span class="price-small">/ maand</span></h2>
-                <p class="box-slogan">Met deze selectie aan kunstaas kan je direct aan de slag.</p>
-                <p class="box-desc">Deze box bevat een paar soorten kunstaas van verschillende merken, met een totaalwaarde van ongeveer €20,-. </p>
-                <button class="cta">
-                    <svg class="button-cart" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.37-.66-.11-1.48-.87-1.48H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
-                    VOEG TOE
-                </button>
-            </div>
-
-            <div class="box" style="opacity: 0;">
-                <h2 class="box-title">'Big one' box</h2>
-                <p class="box-amount">Ongeveer 3 à 4 verschillende<br>
-                    soorten kunstaas.
-                </p>
-                <img src="/assets/images/cardboard.jpg" alt="box" class="cartboard-img">
-                <h2 class="box-price">€34,99 <span class="price-small">/ maand</span></h2>
                 <p class="box-slogan">Met deze selectie aan kunstaas kan je direct aan de slag.</p>
                 <p class="box-desc">Deze box bevat een paar soorten kunstaas van verschillende merken, met een totaalwaarde van ongeveer €20,-. </p>
                 <button class="cta">
