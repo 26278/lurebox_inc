@@ -43,4 +43,11 @@ class MasterController
         $active = $pagina;
         return view('login', ['pagina' => $titel, 'css' => $pagina, 'active' => $active]);
     }
+
+    public function  showRegister(){
+        $titel = "Register";
+        $pagina = str_replace(" ", "-", strtolower($titel)  );
+        $active = $pagina;
+        return view('register', ['pagina' => $titel, 'css' => $pagina, 'active' => $active]);
+    }
 }
