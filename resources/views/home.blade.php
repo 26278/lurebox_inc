@@ -88,7 +88,114 @@
     </div>
     <div class="slider-container">
         <div class="slide fade">
+            <div class="slider-wrapper">
+                <div class="slider-top">
+                    <div class="lurebox-container">
+                        <img src="../assets/images/box-baars.png" alt="" class="slider-lurebox">
+                    </div>
+                    <div class="slider-text-container">
+                        <h2 class="slider-title">
+                            Lureboxes van<br>
+                            afgelopen maand
+                        </h2>
+                        <p class="slider-subtitle">
+                            "Decent one" box<br>
+                            ALLROUND BAARSVISSERIJ
+                        </p>
+                    </div>
+                </div>
+                <div class="lurebox-contains">
+                    <div class="lurebox-item row-one">
+                        <div class="lure-container">
+                            <img src="../assets/lures/keitech-easy-shiner.png" alt="" class="lure">
+                        </div>
+                        <h2 class="lurename">Keitech Easy Shiner</h2>
+                    </div>
+                    <div class="lurebox-item row-one">
+                        <div class="lure-container">
+                            <img src="../assets/lures/zman-chatterbait-elite.png" alt="" class="lure">
+                        </div>
+                        <h2 class="lurename">Z-man Chatterbait Elite</h2>
+                    </div>
+                    <div class="lurebox-item row-one">
+                        <div class="lure-container">
+                            <img src="../assets/lures/missile-baits-baby-d-stroyer.png" alt="" class="lure">
+                        </div>
+                        <h2 class="lurename">Missile Baits Baby D Stroyer</h2>
+                    </div>
+                    <div class="lurebox-item">
+                        <div class="lure-container">
+                            <img src="../assets/lures/creature.png" alt="" class="lure">
+                        </div>
+                        <h2 class="lurename">Berkley Powerhawg 4”</h2>
+                    </div>
+                    <div class="lurebox-item">
+                        <div class="lure-container">
+                            <img src="../assets/lures/lurefans-doublekill-dk4.png" alt="" class="lure">
+                        </div>
+                        <h2 class="lurename">Lurefans Doublekill DK4</h2>
+                    </div>
+                    <div class="lurebox-item">
+                        <div class="lure-container">
+                            <img src="../assets/lures/quantum-x-street-tungsten-ball-jigheads.png" alt="" class="lure">
+                        </div>
+                        <h2 class="lurename">Quantum Tungsten Jigheads</h2>
+                    </div>
+                    <div class="lurebox-item">
+                        <div class="lure-container">
+                            <img src="../assets/lures/rapala-shadow-rap-jack-deep.png" alt="" class="lure">
+                        </div>
+                        <h2 class="lurename">Rapala Shadow Rap Jack Deep</h2>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="slide fade">
+            <p class="slide-number">2 / 3</p>
+
+        </div>
+        <div class="slide fade">
+            <p class="slide-number">3 / 3</p>
+        </div>
+
+        <a onclick="plusSlides(-1)" class="prev">&#10094;</a>
+        <a onclick="plusSlides(1)" class="next">&#10095;</a>
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+
+
+    <div class="share-container">
+
+        <div class="share-top">
+            <h2 class="share-title">Deel je vangst met <span>#LureboxCatch</span><br>
+                en maak kans op meer kunstaas!</h2>
+            <img src="../assets/images/present.png" alt="" class="present">
+        </div>
+        <div class="share-section">
+            <div class="text-section">
+                <h2 class="text-title">
+                    Sharing is caring
+                </h2>
+                <p class="text-subtitle">
+                    Elke maand kiezen we 5 posts<br>
+                    uit op Facebook en Instagram,<br>
+                    waarbij we eenmalig wat extra<br>
+                    kunstaas toevoegen aan de<br>
+                    lurebox.
+                </p>
+            </div>
+            <div class="insta-shot">
+                <img src="../assets/images/insta-shot.jpg" alt="" class="insta-shot-img">
+            </div>
+        </div>
+
+
+
     </div>
 
 @endsection
