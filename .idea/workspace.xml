@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19519afc-d6fa-4d82-bb9e-8b19644c6455" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/images/box-baars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/fisher.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/fishers-sweden.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/home-hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/faq.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/over-ons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/about-us.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/faq.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MasterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MasterController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/master.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/master.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/producten.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/producten.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +35,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/views/faq.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="720">
-                  <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+                <state relative-caret-position="810">
+                  <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -74,8 +62,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" selection-start-line="20" selection-end-line="20" />
+                <state relative-caret-position="506">
+                  <caret line="93" column="11" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
                   <folding>
                     <element signature="e#147#209#0#HTML" expanded="true" />
                   </folding>
@@ -90,8 +78,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/css/home.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="580">
-                  <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+                <state relative-caret-position="1345">
+                  <caret line="113" column="1" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -108,8 +96,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/css/master.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="696">
-                  <caret line="281" column="19" selection-start-line="281" selection-start-column="19" selection-end-line="281" selection-end-column="19" />
+                <state relative-caret-position="520">
+                  <caret line="287" column="1" selection-start-line="287" selection-start-column="1" selection-end-line="287" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -117,8 +105,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/css/over-ons.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+                <state relative-caret-position="570">
+                  <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -172,8 +160,8 @@
         <option value="$PROJECT_DIR$/resources/views/faq.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/about-us.blade.php" />
         <option value="$PROJECT_DIR$/public/css/master.css" />
-        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/public/css/home.css" />
+        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
       </list>
     </option>
   </component>
@@ -418,7 +406,7 @@
       <workItem from="1590579545824" duration="37419000" />
       <workItem from="1591006808451" duration="1926000" />
       <workItem from="1591359966237" duration="5244000" />
-      <workItem from="1592206895428" duration="5306000" />
+      <workItem from="1592206895428" duration="8414000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1585919553795</created>
@@ -490,11 +478,18 @@
       <option name="project" value="LOCAL" />
       <updated>1590767217697</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Minor fixes for footer, added part of homepage">
+      <created>1592213010454</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1592213010454</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66109000" />
+    <option name="totallyTimeSpent" value="69217000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -507,9 +502,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="23" width="1920" height="1057" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.89497715" visible="true" weight="0.16347177" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.89497715" visible="true" weight="0.16347177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.10502283" side_tool="true" weight="0.15867944" />
@@ -522,10 +516,10 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32953367" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4993895" weight="0.34010696" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4993895" weight="0.33989638" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5026624" side_tool="true" weight="0.31917098" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49733758" weight="0.31917098" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.4993895" visible="true" weight="0.31917098" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49733758" visible="true" weight="0.31917098" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4993895" weight="0.31917098" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -607,7 +601,8 @@
     <MESSAGE value="Greensock GSAP implemented, minor fixes" />
     <MESSAGE value="Products added to product page with GSAP animations" />
     <MESSAGE value="Added footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added footer" />
+    <MESSAGE value="Minor fixes for footer, added part of homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor fixes for footer, added part of homepage" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/server.php">
@@ -742,15 +737,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/over-ons.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        <state relative-caret-position="570">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/producten.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="267" column="20" selection-start-line="267" selection-start-column="20" selection-end-line="267" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/images/cardboard.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/faq.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+        <state relative-caret-position="810">
+          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -768,37 +773,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/producten.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="267" column="20" selection-start-line="267" selection-start-column="20" selection-end-line="267" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/master.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="281" column="19" selection-start-line="281" selection-start-column="19" selection-end-line="281" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/images/cardboard.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#147#209#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="520">
+          <caret line="287" column="1" selection-start-line="287" selection-start-column="1" selection-end-line="287" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+        <state relative-caret-position="1345">
+          <caret line="113" column="1" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="93" column="11" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
+          <folding>
+            <element signature="e#147#209#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
