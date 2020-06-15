@@ -67,6 +67,7 @@ openZander.set('.zander-product-section', { y: -220, display: "flex"}, "+=.5" );
 openZander.to('.zander-product-section', .3, { opacity: 1 } );
 openZander.to('.zander-description-content', .3, { opacity: 1, x: 0 } );
 openZander.set('.streetfishing-container, .perch-container', { display: "none" } );
+openZander.set('footer', {css: { bottom: '220px'} });
 openZander.to('.zander-boxes>*', .9, { stagger: .2, opacity: 1, y: 0 } );
 
 
@@ -98,6 +99,8 @@ openPerch.to('.perch-description-content', .3, { opacity: 1, x: 0 } );
 openPerch.to('.perch-boxes>*', .9, { stagger: .2, opacity: 1, y: 0 } );
 
 openPerch.set('.streetfishing, .streetfishing-container', { display: "none" } );
+openPerch.set('footer', {css: { bottom: '440px'} });
+
 
 
 perch.addEventListener("click", function(){
@@ -124,6 +127,8 @@ openStreetfishing.set('.streetfishing-product-section', { y: -660, display: "fle
 openStreetfishing.to('.streetfishing-product-section', .3, { opacity: 1 } );
 openStreetfishing.to('.streetfishing-description-content', .3, { opacity: 1, x: 0 } );
 openStreetfishing.to('.streetfishing-boxes>*', .9, { stagger: .2, opacity: 1, y: 0 } );
+// openStreetfishing.set('footer', {css: { bottom: '660px'} });
+
 
 streetfishing.addEventListener("click", function(){
    openStreetfishing.play();

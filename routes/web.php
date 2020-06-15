@@ -16,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'MasterController@showHome');
 
 Route::get('/producten', 'MasterController@showProducts');
+Route::get('/over-ons', 'MasterController@showAboutUs');

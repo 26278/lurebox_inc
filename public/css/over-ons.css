@@ -1,0 +1,135 @@
+
+.about {
+    background-size: cover;
+    height: 863px;
+    background-repeat: no-repeat;
+}
+
+.faq {
+    background: url(../img/faq.png);
+    background-size: cover;
+    height: 790px;
+    background-repeat: no-repeat;
+}
+
+.about-intro {
+    position: absolute;
+    bottom: 120px;
+    width: auto;
+    height: auto;
+    background: #125D4D;
+    color: white;
+    text-align: center;
+    padding: 5px 24px;
+}
+
+.faq-intro {
+    position: absolute;
+    right: 360px;
+    width: auto;
+    height: auto;
+    background: #125D4D;
+    color: white;
+    text-align: center;
+    padding: 5px 24px;
+}
+
+.about-intro,
+.faq-intro span {
+    font-size: 35px;
+    margin: 5px 0px;
+}
+
+.about-intro,
+.faq-intro p {
+    font-size: 17px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.faq-container {
+    max-width: 70%;
+    margin: 0px auto;
+}
+
+.faq-questions {
+    color: #125D4D;
+}
+
+.faq-questions *:not(:first-child), .faq-questions *:not(:last-child) {
+    margin: 25px 0px;
+}
+
+.faq-contact {
+    height: 650px;
+    width: 100%;
+    background-color: #F0D5B0;
+    margin-bottom: 0px !important;
+}
+/* person about start */
+
+.quote {
+    font-size: 25px;
+    font-weight: 900;
+    max-width: 525px;
+}
+
+.name {
+    font-size: 25px;
+}
+
+.about-fishing {
+    font-size: 17px;
+    max-width: 500px;
+}
+
+.person-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 250px;
+    margin-bottom: 14px;
+}
+
+.about-contact {
+    margin-top: 0px;
+    width: 100%;
+    background-color: #125D4D;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30%;
+    text-align: right;
+}
+
+.contact-info span {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.contact-info a {
+    color: white;
+    margin-top: 10px;
+}
+
+.kopje {
+    margin-top: 20px;
+}
+
+.contact-img {
+    margin-top: 0px !important;
+    background-image: linear-gradient(to bottom, rgba(172, 206, 116, 0.250), rgba(172, 206, 116, 0.250)),
+    url('../img/mediacollege-bass-pro.png');
+    width: 860px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}

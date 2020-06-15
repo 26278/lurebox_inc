@@ -24,4 +24,16 @@ class MasterController
         $active = $pagina;
         return view('producten', ['pagina' => $titel, 'css' => $pagina, 'active' => $active]);
     }
+    public function showAboutUs(){
+        $titel = "Over ons";
+        $pagina = str_replace(" ", "-", strtolower($titel)  );
+        $active = $pagina;
+        return view('about-us', ['pagina' => $titel, 'css' => $pagina, 'active' => $active]);
+    }
+    public function  showFaq(){
+        $titel = "FAQ";
+        $pagina = str_replace(" ", "-", strtolower($titel)  );
+        $active = $pagina;
+        return view('faq', ['pagina' => $titel, 'css' => $pagina, 'active' => $active]);
+    }
 }
