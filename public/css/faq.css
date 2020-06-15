@@ -5,7 +5,7 @@
 .container {
     position: relative;
     width: 1000px;
-    margin: 20px auto;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,7 +17,7 @@
     linear-gradient(to bottom, #00000036, #00000036),
     url('../assets/images/faq.png');
     background-size: cover;
-    height: 790px;
+    height: 700px;
     background-repeat: no-repeat;
     width: 100%;
     display: flex;
@@ -55,6 +55,7 @@
 }
 .faq-questions {
     color: #125D4D;
+    font-family: "OpenSans-Regular", sans-serif;
 }
 
 .faq-questions *:not(:first-child), .faq-questions *:not(:last-child) {

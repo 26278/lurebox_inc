@@ -1,0 +1,90 @@
+.login  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0D5B0;
+    width: 100%;
+    height: 700px;
+    color: #125D4D;
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Sen-Open", sans-serif;
+}
+
+.login-container span {
+    font-size: 42px;
+    margin-bottom: 50px;
+    font-family: "Sen-Bold", sans-serif;
+    font-weight: 900;
+}
+
+.login-content span, .register-content span {
+    font-size: 22px;
+}
+
+.login-container {
+    padding: 50px 50px 50px 50px;
+    margin: auto;
+    border-top: 5px #27B295 solid;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 3px 6px #0000001a;
+}
+
+.login-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.green-line {
+    width: 1px;
+    height: 200px;
+    background: #125D4D;
+}
+.have-acc, .new, .line {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+}
+
+.have-acc {
+    width: 38%;
+}
+.have-acc span {
+    margin: 0px;
+}
+
+
+.new-text p {
+    margin: 20px 0px;
+}
+.have-acc a, .new a, .register-container a {
+    width: 200px;
+    padding: 15px 0px;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Sen-Bold", sans-serif;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #27B295;
+}
+
+.login-input {
+    padding: 5px 0px 5px 10px;
+    width: 100%;
+    margin: 20px 0px;
+    border-radius: 12px;
+    border: 1px solid black;
+}
