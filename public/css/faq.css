@@ -1,0 +1,122 @@
+* {
+    font-family: "Sen-Regular", sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Sen-Regular", sans-serif;
+}
+
+.faq {
+    background-image:
+    linear-gradient(to bottom, #00000036, #00000036),
+    url('../assets/images/faq.png');
+    background-size: cover;
+    height: 790px;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-intro {
+    position: absolute;
+    right: 360px;
+    width: auto;
+    height: auto;
+    background: #125D4D;
+    color: white;
+    text-align: center;
+    padding: 24px 31px;
+}
+
+.faq-intro span {
+    font-family: "Sen-Bold", sans-serif;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.subheader {
+    font-family: "Sen-Regular", sans-serif;
+    font-size: 30px;
+    margin: 10px 0px 25px 0px;
+}
+
+.light {
+    font-weight: 100;
+    line-height: 25px;
+}
+.faq-questions {
+    color: #125D4D;
+}
+
+.faq-questions *:not(:first-child), .faq-questions *:not(:last-child) {
+    margin: 25px 0px;
+}
+
+.faq-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    color: #125D4D;
+    padding: 50px 250px;
+}
+
+
+.faq-contact span:first-child {
+    font-family: "Sen-Bold", sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.faq-contact p {
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: "Sen-Regular", sans-serif;
+}
+
+.contact-block {
+    max-width: 450px;
+    width: 450px;
+    border-top: 8px #27B295 solid;
+    height: 450px;
+    background-color: white;
+    max-height: 450px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-shadow: 0px 3px 6px #0000001a;
+}
+
+textarea, input {
+    color: #125D4D;
+    padding: 7.5px 0px 7.5px 20px; 
+    width: 80%;
+    border: 0.3px solid #000;
+    border-radius: 10px;
+    resize: none;
+    font-family: "Sen-Regular", sans-serif;
+}
+
+.contact-block a {
+    width: 200px;
+    padding: 15px 0px;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Sen-Bold", sans-serif;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #27B295;
+}
