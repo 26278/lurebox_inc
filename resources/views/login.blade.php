@@ -11,7 +11,7 @@
                 <span>Bestaande Klanten</span>
                 <input class="login-input" action="email" placeholder="E-mail adres"></input>
                 <input class="login-input" action="password" placeholder="Wachtwoord"></input>
-                <a href="/">Login</a>
+                <a href="/">Log in</a>
             </div>
             <div class="line">
                 <div class="green-line">

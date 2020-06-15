@@ -68,6 +68,7 @@
 .new-text p {
     margin: 20px 0px;
 }
+
 .have-acc a, .new a, .register-container a {
     width: 200px;
     padding: 15px 0px;
@@ -79,6 +80,7 @@
     text-align: center;
     border-radius: 50px;
     background-color: #27B295;
+    box-shadow: 0px 3px 6px #0000001a;
 }
 
 .login-input {
@@ -87,4 +89,8 @@
     margin: 20px 0px;
     border-radius: 12px;
     border: 1px solid black;
+}
+
+.login-input::placeholder {
+    color: rgba(18, 93, 77, 0.5);
 }
