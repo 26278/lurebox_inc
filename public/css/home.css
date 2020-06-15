@@ -266,6 +266,9 @@
     justify-content: space-between;
     align-items: center;
 }
+.row-one{
+    width: 33%;
+}
 .lure-container{
     height: 80%;
     width: 100%;

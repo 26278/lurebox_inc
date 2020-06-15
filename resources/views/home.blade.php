@@ -151,11 +151,112 @@
             </div>
         </div>
         <div class="slide fade">
-            <p class="slide-number">2 / 3</p>
-
+            <div class="slider-wrapper">
+                <div class="slider-top">
+                    <div class="lurebox-container">
+                        <img src="../assets/images/box-snoekbaars.png" alt="" class="slider-lurebox">
+                    </div>
+                    <div class="slider-text-container">
+                        <h2 class="slider-title">
+                            Lureboxes van<br>
+                            afgelopen maand
+                        </h2>
+                        <p class="slider-subtitle">
+                            "Decent one" box<br>
+                            SNOEKBAARS VERTIKALE BOOTVISSERIJ
+                        </p>
+                    </div>
+                </div>
+                <div class="lurebox-contains">
+                    <div class="lurebox-item row-one">
+                        <div class="lure-container">
+                            <img src="../assets/lures/berkley-power-tube.png" alt="" class="lure">
+                        </div>
+                        <h2 class="lurename">Berkley Power Tube</h2>
+                    </div>
+                    <div class="lurebox-item row-one">
+                        <div class="lure-container">
+                            <img src="../assets/lures/lucky-john-makora-split-tail.png" alt="" class="lure">
+                        </div>
+                        <h2 class="lurename">Lucky John Makora Split Tail</h2>
+                    </div>
+                    <div class="lurebox-item row-one">
+                        <div class="lure-container">
+                            <img src="../assets/lures/molix-real-action-shad.png" alt="" class="lure">
+                        </div>
+                        <h2 class="lurename">Molix Real Action Shad</h2>
+                    </div>
+                    <div class="lurebox-item">
+                        <div class="lure-container">
+                            <img src="../assets/lures/osp-dolive-shad.png" alt="" class="lure">
+                        </div>
+                        <h2 class="lurename">OSP Dolive Shad”</h2>
+                    </div>
+                    <div class="lurebox-item">
+                        <div class="lure-container">
+                            <img src="../assets/lures/strike-pro-the-pig-shad.png" alt="" class="lure">
+                        </div>
+                        <h2 class="lurename">Strike Pro The Pig Shad</h2>
+                    </div>
+                    <div class="lurebox-item">
+                        <div class="lure-container">
+                            <img src="../assets/lures/zman-scented-paddlerz.png" alt="" class="lure">
+                        </div>
+                        <h2 class="lurename">ZMan Scented Paddlerz</h2>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="slide fade">
-            <p class="slide-number">3 / 3</p>
+            <div class="slider-wrapper">
+                <div class="slider-top">
+                    <div class="lurebox-container">
+                        <img src="../assets/images/box-snoek.png" alt="" class="slider-lurebox">
+                    </div>
+                    <div class="slider-text-container">
+                        <h2 class="slider-title">
+                            Lureboxes van<br>
+                            afgelopen maand
+                        </h2>
+                        <p class="slider-subtitle">
+                            "Decent one" box<br>
+                            SNOEK LUREBOX KANTVISSERIJ
+                        </p>
+                    </div>
+                </div>
+                <div class="lurebox-contains">
+                    <div class="lurebox-item row-one">
+                        <div class="lure-container">
+                            <img src="../assets/lures/Dead_Ghost-wit_500.png" alt="" class="lure">
+                        </div>
+                        <h2 class="lurename">BFT Black Ghost Jerk</h2>
+                    </div>
+                    <div class="lurebox-item row-one">
+                        <div class="lure-container">
+                            <img src="../assets/lures/eastfield-chubby-chaser.png" alt="" class="lure">
+                        </div>
+                        <h2 class="lurename">Eastfield Chubby Chaser</h2>
+                    </div>
+                    <div class="lurebox-item row-one">
+                        <div class="lure-container">
+                            <img src="../assets/lures/fly-dressing-dobb-daddy-spin-fly-hook.png" alt="" class="lure">
+                        </div>
+                        <h2 class="lurename">Dobb Daddy Spin Fly</h2>
+                    </div>
+                    <div class="lurebox-item">
+                        <div class="lure-container">
+                            <img src="../assets/lures/rapala-super-shadow-rap.png" alt="" class="lure">
+                        </div>
+                        <h2 class="lurename">Rapala Super Shadow Rap</h2>
+                    </div>
+                    <div class="lurebox-item">
+                        <div class="lure-container">
+                            <img src="../assets/lures/rapala-x-rap-otus.png" alt="" class="lure">
+                        </div>
+                        <h2 class="lurename">Rapala X-Rap Otus</h2>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <a onclick="plusSlides(-1)" class="prev">&#10094;</a>
