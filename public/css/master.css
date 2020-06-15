@@ -96,6 +96,7 @@ nav {
     position: relative;
     width: 176px;
     top: 0;
+    z-index: 999;
     height: 200px;
     display: flex;
     flex-direction: column;
