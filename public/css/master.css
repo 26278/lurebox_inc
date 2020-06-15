@@ -149,6 +149,7 @@ nav {
     transition: .22s;
 }
 .nav-right svg:hover {
+    cursor: pointer;
     fill: #32E0BC;
 }
 
@@ -288,25 +289,26 @@ footer::before{
 }
 
 .menu-float {
-    right: 100px;
+    right: calc(50% - 500px);
     z-index: 6;
-    top: 80px;
+    top: 75px;
     background: white;
     width: 200px;
     position: absolute;
     height: auto;
     border-radius: 8px;
     box-shadow: 0px 3px 6px #0000001a;
+    display: none;
 }
 
 .float-text {
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     background-color: #125D4D;
-    font-family: "OpenSans-Light", sans-serif;
+    font-family: "OpenSans-Regular", sans-serif;
     justify-content: space-between;
     display: flex;
-    padding: 20px 20px 20px 20px;
+    padding: 15px
 }
 
 
@@ -316,27 +318,43 @@ footer::before{
     justify-content: space-around;
 }
 
-.login {
+.nav-login {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 0px;
+    padding: 15px 0px;
     color: rgba(18, 93, 77, 0.726);
     text-decoration: none;
     font-weight: 100;
-    font-family: "OpenSans-Light", sans-serif;
+    font-family: "OpenSans-Regular", sans-serif;
     border-bottom: 1px solid;
+    transition: .3s ease;
+}
+.nav-login:hover, .nav-register:hover{
+    background-color: #27B295;
+    color: #fff;
 }
 
-.register  {
+.nav-register  {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px 0px;
     font-weight: 100;
-    font-family: "OpenSans-Light", sans-serif;
+    font-family: "OpenSans-Regular", sans-serif;
     color: rgba(18, 93, 77, 0.726);
     text-decoration: none;
+    transition: .3s ease;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.close-btn{
+    fill: #fff;
+    transition: .3s ease;
+}
+.close-btn:hover{
+    cursor: pointer;
+    fill: #32E0BC;
 }
