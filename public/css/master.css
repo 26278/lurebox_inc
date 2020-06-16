@@ -308,6 +308,7 @@ footer::before{
     font-family: "OpenSans-Regular", sans-serif;
     justify-content: space-between;
     display: flex;
+    align-items: center;
     padding: 15px
 }
 
