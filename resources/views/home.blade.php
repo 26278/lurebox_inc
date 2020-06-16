@@ -48,7 +48,7 @@
                     Binnen Nederland en België verzenden<br>
                     we de lurebox gratis naar je toe.
                 </p>
-                <a href="{{url('/producten')}}" class="step-link">Stel hier je vragen</a>
+                <a href="{{url('/faq')}}" class="step-link">Stel hier je vragen</a>
             </div>
             <div class="step">
                 <div class="step-header">
@@ -64,7 +64,7 @@
                     en ontwikkelingen op het gebied van sportvisserij.
                 </p>
                 </p>
-                <a href="{{url('/producten')}}" class="step-link">Lees meer over ons</a>
+                <a href="{{url('/over-ons')}}" class="step-link">Lees meer over ons</a>
             </div>
             <div class="step">
                 <div class="step-header">

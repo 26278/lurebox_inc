@@ -89,11 +89,11 @@
                     </div>
                 </div>
                 <div class="links">
-                    <a href="/producten" class="footer-link">Bekijk hier onze lureboxes</a>
+                    <a href="{{url('/producten')}}" class="footer-link">Bekijk hier onze lureboxes</a>
 
-                    <a href="/producten" class="footer-link">Leer meer over ons</a>
+                    <a href="{{url('/over-ons')}}" class="footer-link">Leer meer over ons</a>
 
-                    <a href="/producten" class="footer-link">
+                    <a href="{{url('/faq')}}" class="footer-link">
                         Bekijk de FAQ of<br>
                         stel hier je vraag
                     </a>

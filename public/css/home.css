@@ -13,6 +13,7 @@
 .background-image{
     width: 100%;
     height: calc(100vh - 220px);
+    min-height: 510px;
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
