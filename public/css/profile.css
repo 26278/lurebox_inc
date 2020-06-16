@@ -59,7 +59,7 @@
 }
 
 .profile-block, .subscription-box, .profilechange-block {
-    padding: 50px 40px 20px 40px;
+    padding: 50px 25px 50px 25px;
     width: 100%;
     border-top: 5px #27B295 solid;
     background: white;
@@ -107,7 +107,8 @@
 }
 
 .subscription-box img {
-    max-width: 80%;
+    max-width: 60%;
+    height: auto;
     margin: 0px auto;
 }
 
@@ -177,4 +178,10 @@ p:nth-child(2) {
 .button-change {
     margin: 20px 0px !important;
     width: 200px;
+}
+
+.left {
+    padding-left: 100px;
+    text-align: left !important;
+    color: rgba(18, 93, 77, 0.849);
 }
