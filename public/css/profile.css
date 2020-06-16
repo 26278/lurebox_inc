@@ -1,0 +1,111 @@
+
+.profile {
+    background-image:
+    linear-gradient(to bottom, #00000036, #00000036),
+    url('../assets/images/profilebackground.png');
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Sen-Open", sans-serif;
+}
+
+.container span:first-child {
+    font-size: 42px;
+    margin-bottom: 40px;
+    font-weight: 900;
+    font-family: "Sen-Bold", sans-serif;
+    color: #125D4D;
+}
+
+.container span {
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    font-family: "Sen-Bold", sans-serif;
+    color: #125D4D;
+}
+
+.profile-intro {
+    position: absolute;
+    bottom: 120px;
+    width: auto;
+    height: auto;
+    background: #125D4D;
+    color: white;
+    text-align: center;
+    padding: 24px 31px;
+}
+
+
+.profile-intro span {
+    font-family: "Sen-Bold", sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.profile-block, .subscription-box {
+    padding: 50px 40px 20px 40px;
+    max-width: 500px;
+    border-top: 5px #27B295 solid;
+    background: white;
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: column;
+    box-shadow: 0px 3px 6px #0000001a;
+}
+
+.profile-block div {
+    display: flex;
+    color: #125D4D;
+    margin: 15px 0px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile-block a, .subscription-box a{
+    padding: 15px 20px;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Sen-Bold", sans-serif;
+    color: white;
+    border: none;
+    margin: 15px auto;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #27B295;
+    box-shadow: 0px 3px 6px #0000001a;
+}
+
+.subscription-box {
+    text-align: center;
+}
+
+.subscription-box span:first-child  {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.subscription-box img {
+    max-width: 80%;
+    margin: 0px auto;
+}
+
+.last {
+    padding-bottom: 30px;
+}

@@ -20,3 +20,4 @@ Route::get('/over-ons', 'MasterController@showAboutUs');
 Route::get('/faq', 'MasterController@showFaq');
 Route::get('/login', 'MasterController@showLogin');
 Route::get('/register', 'MasterController@showRegister');
+Route::get('/profile', 'MasterController@showProfile');
