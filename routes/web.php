@@ -23,3 +23,4 @@ Route::get('/register', 'MasterController@showRegister');
 Route::get('/profile', 'MasterController@showProfile');
 Route::get('/changeprofile', 'MasterController@showChangeprofile');
 Route::get('/changesubscription', 'MasterController@showChangesubscription');
+Route::get('/changelogin', 'MasterController@showChangelogin');

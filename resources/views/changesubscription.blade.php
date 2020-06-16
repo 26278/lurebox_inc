@@ -18,7 +18,7 @@
         <span>ALLROUND BAARSVISSERIJ</span>
         <img src="/assets/images/box-baars.png" alt="fisher" class="fisher-img">
     <p><strong>€24,99</strong> / maand</p>
-    <a href="/changesubscription">Wijzig abbonoment</a>
+    <a href="/profile">Wijzig abbonoment</a>
    </div>
 </div>
 @endsection

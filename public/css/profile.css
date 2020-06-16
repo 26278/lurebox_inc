@@ -121,7 +121,7 @@ input {
     padding: 7.5px 0px 7.5px 20px;
     width: 80%;
     border: 0.3px solid #000;
-    border-radius: 10px;
+    border-radius: 8px;
     resize: none;
 }
 
@@ -149,13 +149,13 @@ input[type="radio"], .inputs input {
     margin-top: 3px;
 }
 
-
 .register-inputs input {
     max-width: 80%;
 }
 
 .user-credentials p {
     margin: 20px 0px;
+    font-family: "OpenSans-Italic";
 }
 
 .register-help span {
@@ -163,6 +163,9 @@ input[type="radio"], .inputs input {
     margin-bottom: 20px !important;
 }
 
+.register-help p {
+    font-family: "OpenSans";
+}
 ::placeholder {
     color: rgba(18, 93, 77, 0.493);
 }
@@ -177,11 +180,18 @@ p:nth-child(2) {
 
 .button-change {
     margin: 20px 0px !important;
-    width: 200px;
+    width: 250px;
 }
 
 .left {
     padding-left: 100px;
     text-align: left !important;
     color: rgba(18, 93, 77, 0.849);
+}
+
+.user-credentials input {
+    max-width: 300px;
+}
+.register-help p {
+    margin: 2px 0px;
 }

@@ -11,11 +11,10 @@
                 <span>Bestaande Klanten</span>
                 <input class="login-input" action="email" placeholder="E-mail adres"></input>
                 <input class="login-input" action="password" placeholder="Wachtwoord"></input>
-                <a href="/">Log in</a>
+                <a href="/" class="button">Log in</a>
             </div>
             <div class="line">
                 <div class="green-line">
-
                 </div>
             </div>
             <div class="new">
@@ -24,7 +23,7 @@
                     <p>Maak binnen 2 minuten een account aan</p>
                 </div>
                 <input class="login-input" action="email" placeholder="E-mail adres"></input>
-                <a href="/register">Registreer</a>
+                <a href="/register" class="button">Registreer</a>
             </div>
         </div>
     </div>
