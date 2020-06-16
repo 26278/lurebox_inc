@@ -45,7 +45,7 @@ class MasterController
     }
 
     public function  showRegister(){
-        $titel = "Register";
+        $titel = "Registreer";
         $pagina = str_replace(" ", "-", strtolower($titel)  );
         $active = $pagina;
         return view('register', ['pagina' => $titel, 'css' => $pagina, 'active' => $active]);
@@ -53,41 +53,41 @@ class MasterController
 
 
     public function  showProfile(){
-        $titel = "Profile";
+        $titel = "Profiel";
         $pagina = str_replace(" ", "-", strtolower($titel)  );
         $active = $pagina;
         return view('profile', ['pagina' => $titel, 'css' => $pagina, 'active' => $active]);
     }
 
     public function  showChangeprofile(){
-        $titel = "Profile";
+        $titel = "Profiel";
         $pagina = str_replace(" ", "-", strtolower($titel)  );
         $active = $pagina;
         return view('changeprofile', ['pagina' => $titel, 'css' => $pagina, 'active' => $active]);
     }
   
     public function  showChangesubscription(){
-        $titel = "profile";
+        $titel = "Profiel";
         $pagina = str_replace(" ", "-", strtolower($titel)  );
         $active = $pagina;
         return view('changesubscription', ['pagina' => $titel, 'css' => $pagina, 'active' => $active]);
     }
 
     public function  showBetaalgegevens(){
-        $titel = "profile";
+        $titel = "Profiel";
         $pagina = str_replace(" ", "-", strtolower($titel)  );
         $active = $pagina;
         return view('betaalgegevens', ['pagina' => $titel, 'css' => $pagina, 'active' => $active]);
     }
 
     public function  showChangelogin(){
-        $titel = "profile";
+        $titel = "Profiel";
         $pagina = str_replace(" ", "-", strtolower($titel)  );
         $active = $pagina;
         return view('changelogin', ['pagina' => $titel, 'css' => $pagina, 'active' => $active]);
     }
     public function  showGekozenlurebox(){
-        $titel = "profile";
+        $titel = "Profiel";
         $pagina = str_replace(" ", "-", strtolower($titel)  );
         $active = $pagina;
         return view('gekozen-lurebox', ['pagina' => $titel, 'css' => $pagina, 'active' => $active]);

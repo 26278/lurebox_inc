@@ -61,8 +61,8 @@
 .profile-block,
 .subscription-box,
 .profilechange-block {
-    padding: 50px 25px 50px 25px;
-    width: 100%;
+    padding: 50px 50px 30px 50px;
+    width: 57%;
     border-top: 5px #27B295 solid;
     background: white;
     color: #125D4D;
@@ -75,7 +75,7 @@
 .profile-block div {
     display: flex;
     color: #125D4D;
-    margin: 15px 0px;
+    margin: 6px 0px;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -93,8 +93,9 @@
     text-decoration: none;
     font-family: "Sen-Bold", sans-serif;
     color: white;
+    min-width: 203px;
     border: none;
-    margin: 15px auto;
+    margin: 8px auto;
     text-align: center;
     border-radius: 50px;
     background-color: #27B295;
@@ -194,6 +195,7 @@ p:first-child {
 
 p:nth-child(2) {
     margin-bottom: 10px;
+    width: 50%;
 }
 
 .button-change {

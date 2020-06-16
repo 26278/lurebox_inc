@@ -122,3 +122,7 @@ textarea, input {
     border-radius: 50px;
     background-color: #27B295;
 }
+
+strong {
+    font-family: "OpenSans-Bold", sans-serif;
+}

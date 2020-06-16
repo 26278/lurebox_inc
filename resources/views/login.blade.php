@@ -23,7 +23,7 @@
                     <p>Maak binnen 2 minuten een account aan</p>
                 </div>
                 <input class="login-input" action="email" placeholder="E-mail adres"></input>
-                <a href="/register" class="button">Registreer</a>
+                <a href="/registreer" class="button">Registreer</a>
             </div>
         </div>
     </div>

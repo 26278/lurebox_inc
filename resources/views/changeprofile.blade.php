@@ -73,7 +73,7 @@
             </div>
         </div>
     </div>
-    <a class="button-change" href="/profile">Profiel opslaan</a>
+    <a class="button-change button" href="/profile">Profiel opslaan</a>
    </div>
 </div>
 @endsection

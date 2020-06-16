@@ -30,8 +30,8 @@
            <strong>Bezorg Adres</strong>
            <p>Straatnaam 123, Plaatsnaam</p>
        </div>
-        <a href="/changeprofile">Wijzig profiel</a>
-        <a href="/changepayment">Wijzig betaalgegevens</a>
+        <a href="/verander-profiel">Wijzig profiel</a>
+        <a href="/betaalgegevens-">Wijzig betaalgegevens</a>
    </div>
 
    <span class="subspan">Je abonnement</span>
@@ -41,7 +41,7 @@
         <span>ALLROUND BAARSVISSERIJ</span>
         <img src="/assets/images/box-baars.png" alt="fisher" class="fisher-img">
     <p><strong>€24,99</strong> / maand</p>
-    <a href="/changesubsription">Wijzig abbonoment</a>
+    <a href="/verander-abonnement" class="button">Wijzig abbonoment</a>
    </div>
 </div>
 @endsection

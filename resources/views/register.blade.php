@@ -85,7 +85,7 @@
                 </div>
             </div>
         </div>
-        <a href="/">Registreer</a>
+        <a href="/" class="button">Registreer</a>
     </div>
 </div>
 
