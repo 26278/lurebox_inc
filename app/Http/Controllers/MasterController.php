@@ -73,6 +73,13 @@ class MasterController
         return view('changesubscription', ['pagina' => $titel, 'css' => $pagina, 'active' => $active]);
     }
 
+    public function  showBetaalgegevens(){
+        $titel = "profile";
+        $pagina = str_replace(" ", "-", strtolower($titel)  );
+        $active = $pagina;
+        return view('betaalgegevens', ['pagina' => $titel, 'css' => $pagina, 'active' => $active]);
+    }
+
     public function  showChangelogin(){
         $titel = "profile";
         $pagina = str_replace(" ", "-", strtolower($titel)  );
