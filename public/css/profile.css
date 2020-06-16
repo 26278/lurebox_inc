@@ -1,7 +1,7 @@
 .profile {
     background-image:
-    linear-gradient(to bottom, #00000036, #00000036),
-    url('../assets/images/profilebackground.png');
+        linear-gradient(to bottom, #00000036, #00000036),
+        url('../assets/images/profilebackground.png');
     background-size: cover;
     height: 700px;
     background-repeat: no-repeat;
@@ -58,7 +58,9 @@
     margin-bottom: 20px;
 }
 
-.profile-block, .subscription-box, .profilechange-block {
+.profile-block,
+.subscription-box,
+.profilechange-block {
     padding: 50px 25px 50px 25px;
     width: 100%;
     border-top: 5px #27B295 solid;
@@ -83,7 +85,9 @@
     display: flex;
 }
 
-.profile-block a, .subscription-box a , .profilechange-block a {
+.profile-block a,
+.subscription-box a,
+.profilechange-block a {
     padding: 15px 20px;
     align-items: center;
     text-decoration: none;
@@ -99,14 +103,23 @@
 
 .subscription-box {
     text-align: center;
+    font-family: "OpenSans";
 }
 
-.subscription-box span:first-child  {
+.subscription-box span,
+.chosen-box span {
+    font-weight: 100 !important;
+}
+
+.subscription-box span:first-child,
+.chosen-box span:first-child {
     font-size: 20px;
+    font-family: "OpenSans";
     margin-bottom: 10px;
 }
 
-.subscription-box img {
+.subscription-box img,
+.chosen-box img {
     max-width: 60%;
     height: auto;
     margin: 0px auto;
@@ -125,9 +138,12 @@ input {
     resize: none;
 }
 
-input[type="radio"], .inputs input {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+input[type="radio"],
+.inputs input {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Chrome, Safari, Opera */
     transform: scale(1.5);
     margin: 5px 10px;
     width: auto;
@@ -153,7 +169,8 @@ input[type="radio"], .inputs input {
     max-width: 80%;
 }
 
-.user-credentials p, .user-payment p {
+.user-credentials p,
+.user-payment p {
     margin: 20px 0px;
     font-family: "OpenSans-Italic";
 }
@@ -166,6 +183,7 @@ input[type="radio"], .inputs input {
 .register-help p {
     font-family: "OpenSans";
 }
+
 ::placeholder {
     color: rgba(18, 93, 77, 0.493);
 }
@@ -186,12 +204,14 @@ p:nth-child(2) {
 .left {
     padding-left: 100px;
     text-align: left !important;
+    font-family: "OpenSans-Italic";
     color: rgba(18, 93, 77, 0.849);
 }
 
 .user-credentials input {
     max-width: 300px;
 }
+
 .register-help p {
     margin: 2px 0px;
 }
@@ -214,7 +234,6 @@ p:nth-child(2) {
     font-size: 13px;
     line-height: 18px;
 }
-
 
 .bank-help span {
     font-size: 20px !important;
@@ -242,4 +261,38 @@ select {
 
 .payment {
     margin-left: 100px !important;
+}
+
+.chosen-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.chosen-box p {
+    font-family: "Sen-Regular", sans-serif;
+    font-size: 25px;
+    color: black;
+    font-weight: 100;
+}
+
+.top-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-info a {
+    padding: 0;
+    align-items: unset;
+    text-decoration: underline;
+    font-family: "Sen-Bold", sans-serif;
+    margin-right: 50px;
+    color: #27B295;
+    border: none;
+    text-align: unset;
+    border-radius: none;
+    background-color: transparent;
+    box-shadow: none;
 }

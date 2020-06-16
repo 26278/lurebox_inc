@@ -25,3 +25,4 @@ Route::get('/changeprofile', 'MasterController@showChangeprofile');
 Route::get('/changesubscription', 'MasterController@showChangesubscription');
 Route::get('/changelogin', 'MasterController@showChangelogin');
 Route::get('/betaalgegevens', 'MasterController@showBetaalgegevens');
+Route::get('/gekozen-lurebox', 'MasterController@showGekozenlurebox');
