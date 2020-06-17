@@ -62,7 +62,7 @@
 .subscription-box,
 .profilechange-block {
     padding: 50px 50px 30px 50px;
-    width: 100%;
+    width: 50%;
     border-top: 5px #27B295 solid;
     background: white;
     color: #125D4D;
@@ -73,6 +73,9 @@
     border-radius: 8px;
 }
 
+.profilechange-block, .subscription-box {
+    width: 100%;
+}
 .profile-block div {
     display: flex;
     color: #125D4D;
@@ -110,6 +113,7 @@
 
 .subscription-box span,
 .chosen-box span {
+    font-family: "OpenSans";
     font-weight: 100 !important;
 }
 
@@ -221,7 +225,7 @@ p:nth-child(2) {
 
 
 .bank-help {
-    padding: 25px 40px 25px 20px;
+    padding: 10px 40px 10px 20px;
     width: 300px;
     border-radius: 4px;
     border-top: 5px #27B295 solid;
@@ -235,12 +239,14 @@ p:nth-child(2) {
 .bank-help p {
     margin-top: 3px;
     font-size: 13px;
+    font-family: "OpenSans";
     line-height: 18px;
 }
 
 .bank-help span {
     font-size: 20px !important;
-    margin-bottom: 20px !important;
+    font-family: "OpenSans-Bold", sans-serif !important;
+    margin-bottom: 15px !important;
 }
 
 select {
@@ -251,10 +257,6 @@ select {
     border-radius: 8px;
     resize: none;
     max-width: 300px;
-}
-
-.user-payment {
-    margin-left: 100px;
 }
 
 .ideal {
@@ -305,6 +307,7 @@ select {
 .price{
     font-size: 1.5em;
     font-family: 'Sen-Regular', sans-serif;
+    margin-bottom: 20px;
 }
 .box-title{
     font-family: 'OpenSans-Regular', sans-serif;
