@@ -45,7 +45,7 @@
 }
 
 .light {
-    font-family: "Sen-Regular", sans-serif;
+    font-family: "OpenSans-Regular", sans-serif;
     font-weight: 100;
     font-size: 20px;
     margin-top: 20px;
@@ -112,9 +112,14 @@
 .contact-info a, .contact-info p {
     color: white;
     text-decoration: none;
-    font-family: "Sen-Regular", sans-serif;
+    font-family: "OpenSans-Regular", sans-serif;
     margin-top: 10px;
+    transition: .3s ease;
 }
+.contact-info a:hover {
+    color: #32E0BC;
+}
+
 
 .kopje {
     margin-top: 20px;

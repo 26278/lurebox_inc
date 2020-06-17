@@ -35,17 +35,17 @@
         </select>
         <div class="bank-help">
             <span>Voorwaarden</span>
-           <p>Lurebox zal een tijdelijke autorisatie op je <br>
-             betaalkaart maken om deze te verifiëren. Dit is <br>
-              alleen een autorisatie en NIET een afschrijving. Je <br>
-               bank kan je op de hoogte brengen van de <br>
-                autorisatie. Je gaat ermee akkoord dat je <br>
-                 onmiddellijk toegang krijgt tot je Lurebox- <br>
-                  abonnement. In het geval van opzegging heb je <br>
+           <p>Lurebox zal een tijdelijke autorisatie op je
+             betaalkaart maken om deze te verifiëren. Dit is
+              alleen een autorisatie en NIET een afschrijving. Je
+               bank kan je op de hoogte brengen van de
+                autorisatie. Je gaat ermee akkoord dat je
+                 onmiddellijk toegang krijgt tot je Lurebox-
+                  abonnement. In het geval van opzegging heb je
                    geen recht op restitutie. 
         </p>
         </div>
     </div>
-    <a class="button-change payment button" href="/profile">Betaalgegevens wijzigen</a>
+    <a class="button-change payment button" href="/profiel">Betaalgegevens wijzigen</a>
 </div>
 @endsection

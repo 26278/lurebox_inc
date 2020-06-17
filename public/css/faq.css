@@ -13,9 +13,7 @@
 }
 
 .faq {
-    background-image:
-    linear-gradient(to bottom, #00000036, #00000036),
-    url('../assets/images/faq.png');
+    background-image: url('../assets/images/faq.png');
     background-size: cover;
     height: 700px;
     background-repeat: no-repeat;
@@ -26,31 +24,45 @@
     justify-content: center;
     align-items: center;
 }
+.faq::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    background-color: rgba(39, 178, 149, .24);
+    z-index: 1;
+}
 
 .faq-intro {
     position: absolute;
-    right: 250px;
+    top: 10%;
+    right: 43%;
+    transform: translate( 75%, -50% );
     width: auto;
     height: auto;
     background: #125D4D;
     color: white;
     text-align: center;
     padding: 24px 31px;
+    z-index: 2;
 }
 
 .faq-intro span {
     font-family: "Sen-Bold", sans-serif;
-    font-size: 42px;
+    font-size: 38px;
     margin-bottom: 20px;
 }
 
 .subheader {
     font-family: "OpenSans-Regular", sans-serif;
     font-size: 30px;
-    margin: 10px 0px 25px 0px;
+    margin: 10px 0 25px 0;
 }
 
 .light {
+    font-family: 'OpenSans-Regular', sans-serif;
     font-weight: 100;
     line-height: 20px;
 }
@@ -58,9 +70,13 @@
     color: #125D4D;
     font-family: "OpenSans-Regular", sans-serif;
 }
+.faq-questions p{
+    font-family: 'OpenSans-Regular', sans-serif;
+    line-height: 1.2em;
+}
 
 .faq-questions *:not(:first-child), .faq-questions *:not(:last-child) {
-    margin: 25px 0px;
+    margin: 15px 0 30px 0;
 }
 
 .faq-contact {
@@ -83,7 +99,7 @@
 .faq-contact p {
     font-size: 20px;
     margin-top: 25px;
-    font-family: "Sen-Regular", sans-serif;
+    font-family: "OpenSans-Regular", sans-serif;
 }
 
 .contact-block {
@@ -95,34 +111,48 @@
     max-height: 450px;
     align-items: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     flex-direction: column;
-    box-shadow: 0px 3px 6px #0000001a;
+    box-shadow: 0 3px 6px #0000001a;
 }
 
 textarea, input {
     color: #125D4D;
-    padding: 7.5px 0px 7.5px 20px; 
+    padding: 7.5px 0 7.5px 20px;
     width: 80%;
     border: 0.3px solid #000;
     border-radius: 8px;
     resize: none;
-    font-family: "Sen-Regular", sans-serif;
+    font-family: "OpenSans-Regular", sans-serif;
+}
+input{
+    margin-top: 3em;
+}
+textarea{
+    margin-top: 1em;
+
+}
+input::placeholder, textarea::placeholder{
+    color: rgba(18, 93, 77, .5);
 }
 
 .contact-block a {
     width: 200px;
-    padding: 15px 0px;
+    padding: 15px 0;
     align-items: center;
     text-decoration: none;
-    font-family: "Sen-Bold", sans-serif;
+    font-family: "OpenSans-Regular", sans-serif;
     color: white;
     border: none;
     text-align: center;
     border-radius: 50px;
     background-color: #27B295;
+    margin-top: 1em;
 }
 
 strong {
     font-family: "OpenSans-Bold", sans-serif;
+}
+.bold{
+    font-family: 'OpenSans-Bold', sans-serif;
 }

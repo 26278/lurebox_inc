@@ -16,7 +16,19 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: "Sen-Open", sans-serif;
+    font-family: "OpenSans-Regular", sans-serif;
+}
+
+.form-content{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: unset;
 }
 
 .login-container span {
@@ -24,6 +36,7 @@
     margin-bottom: 50px;
     font-family: "Sen-Bold", sans-serif;
     font-weight: 900;
+    margin-top: 20px;
 }
 
 .login-content span, .register-content span {
@@ -31,7 +44,6 @@
 }
 
 .login-container {
-    padding: 50px 50px 50px 50px;
     margin: auto;
     border-top: 5px #27B295 solid;
     background: white;
@@ -41,9 +53,12 @@
 }
 
 .login-content {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    height: 80%;
 }
 
 .green-line {
@@ -54,7 +69,7 @@
 .have-acc, .new, .line {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;    
+    justify-content: space-around;
 }
 
 .have-acc {
@@ -66,7 +81,9 @@
 
 
 .new-text p {
-    margin: 20px 0px;
+    margin: 15px 0px;
+    font-size: 16px;
+
 }
 
 .have-acc a, .new a, .register-container a {
@@ -86,7 +103,7 @@
 
 .login-input {
     padding: 5px 0px 5px 10px;
-    width: 100%;
+    width: 300px;
     margin: 10px 0px;
     border-radius: 8px;
     border: 1px solid black;
@@ -94,4 +111,7 @@
 
 .login-input::placeholder {
     color: rgba(18, 93, 77, 0.5);
+}
+.button{
+    margin-top: 20px;
 }

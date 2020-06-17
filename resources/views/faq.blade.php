@@ -13,6 +13,7 @@
             Stel hem gerust, dan geven wij binnen 24 uur antwoord. </p>
     </div>
 </div>
+
 <div class="container">
     <div class="faq-questions">
         <strong>Waarom zou ik mij abonneren op een Lurebox als ik alles ook in de winkel kan kopen?</strong>
@@ -29,11 +30,11 @@
             besteldatum.</p>
 
         <strong>Kan ik mijn bezorgdatum veranderen?</strong>
-        <p>Zeker, bij je account instellingen kan je de bezorgdatum veranderen (Pro tip: Aan het begin van de maand worden de
+        <p>Zeker, bij je account instellingen kan je de bezorgdatum veranderen (<span class="bold">Pro tip:</span> Aan het begin van de maand worden de
             boxen met de nieuwste producten verzonden).</p>
 
         <strong>Ontvangt iedereen met hetzelfde pakket dezelfde inhoud?</strong>
-        <p>De producten blijven hetzelfde, het kan wel dat de kleuren afwijken. (Pro tip: Je kan dus goed wedstrijden doen met je
+        <p>De producten blijven hetzelfde, het kan wel dat de kleuren afwijken. (<span class="bold">Pro tip:</span> Je kan dus goed wedstrijden doen met je
             vismaat die ook geabonneerd is!)</p>
 
         <strong>Wat is de hoofdstad van Haïti? </strong>
@@ -44,14 +45,14 @@
 <div class="faq-contact">
     <div class="faq-contact-left">
         <span>Stel hier je vraag!</span>
-        <p>Wij weten alles...</p>
+        <p>Wij weten alles.</p>
     </div>
 
     <div class="faq-contact-right">
         <div class="contact-block">
             <input type="email" placeholder="E-mail adres">
-            <textarea name="" placeholder="Type hier je vraag" id="" cols="30" rows="10"></textarea>
-            <a class="cta" href="/">Verstuur</a>
+            <textarea name="" placeholder="Typ hier je vraag" id="" cols="30" rows="10"></textarea>
+            <a class="cta button" href="/">Verstuur</a>
         </div>
     </div>
 </div>

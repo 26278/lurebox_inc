@@ -282,10 +282,12 @@ footer::before{
     border-radius: 100px;
     text-decoration: none;
     transition: .3s;
+    box-shadow: 0 3px 6px #0000001a;
 }
 .button:hover{
     background-color: #fff;
     color: #27B295;
+    box-shadow: 0 3px 6px #0000001a;
 }
 
 .menu-float {

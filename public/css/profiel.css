@@ -62,7 +62,7 @@
 .subscription-box,
 .profilechange-block {
     padding: 50px 50px 30px 50px;
-    width: 57%;
+    width: 100%;
     border-top: 5px #27B295 solid;
     background: white;
     color: #125D4D;
@@ -70,6 +70,7 @@
     margin-bottom: 30px;
     flex-direction: column;
     box-shadow: 0px 3px 6px #0000001a;
+    border-radius: 8px;
 }
 
 .profile-block div {
@@ -121,7 +122,7 @@
 
 .subscription-box img,
 .chosen-box img {
-    max-width: 60%;
+    max-width: 50%;
     height: auto;
     margin: 0px auto;
 }
@@ -189,13 +190,13 @@ input[type="radio"],
     color: rgba(18, 93, 77, 0.493);
 }
 
-p:first-child {
+.profilechange-block p:first-child {
     margin: 20px 0px;
 }
 
 p:nth-child(2) {
     margin-bottom: 10px;
-    width: 50%;
+    /*width: 50%;*/
 }
 
 .button-change {
@@ -206,7 +207,7 @@ p:nth-child(2) {
 .left {
     padding-left: 100px;
     text-align: left !important;
-    font-family: "OpenSans-Italic";
+    font-family: "OpenSans-Italic", sans-serif;
     color: rgba(18, 93, 77, 0.849);
 }
 
@@ -262,7 +263,7 @@ select {
 }
 
 .payment {
-    margin-left: 100px !important;
+    margin-left: 100px;
 }
 
 .chosen-box {
@@ -294,7 +295,17 @@ select {
     color: #27B295;
     border: none;
     text-align: unset;
-    border-radius: none;
+    border-radius: unset;
     background-color: transparent;
     box-shadow: none;
+}
+.price-tag{
+    margin-bottom: 2em;
+}
+.price{
+    font-size: 1.5em;
+    font-family: 'Sen-Regular', sans-serif;
+}
+.box-title{
+    font-family: 'OpenSans-Regular', sans-serif;
 }

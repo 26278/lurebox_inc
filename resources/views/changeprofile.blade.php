@@ -31,7 +31,7 @@
         </div>
         <div>
             <p>Tussenvoegsel</p>
-            <input type="text" placeholder="De">
+            <input type="text" placeholder="de">
         </div>
         <div>
             <p>Achternaam</p>
@@ -73,7 +73,7 @@
             </div>
         </div>
     </div>
-    <a class="button-change button" href="/profile">Profiel opslaan</a>
+    <a class="button-change button" href="/profiel">Profiel opslaan</a>
    </div>
 </div>
 @endsection

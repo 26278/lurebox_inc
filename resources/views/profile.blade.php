@@ -31,7 +31,7 @@
            <p>Straatnaam 123, Plaatsnaam</p>
        </div>
         <a href="/verander-profiel">Wijzig profiel</a>
-        <a href="/betaalgegevens-">Wijzig betaalgegevens</a>
+        <a href="/betaalgegevens">Wijzig betaalgegevens</a>
    </div>
 
    <span class="subspan">Je abonnement</span>
