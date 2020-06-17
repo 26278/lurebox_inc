@@ -40,7 +40,7 @@
         <span>‘Decent One’ box</span>
         <span>ALLROUND BAARSVISSERIJ</span>
         <img src="/assets/images/box-baars.png" alt="fisher" class="fisher-img">
-    <p class="price">€24,99 / maand</p>
+        <p class="price-tag"><strong class="price">€24,99</strong> / maand</p>
     <a href="/verander-abonnement" class="button">Wijzig abbonoment</a>
    </div>
 </div>

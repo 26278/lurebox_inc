@@ -342,6 +342,9 @@ footer::before{
     display: flex;
     justify-content: space-between;
 }
+.winkelmandje-info p {
+    margin-bottom: 0px !important;
+}
 .cart-float .nav-register {
     background: #27B295;
     color: #fff;

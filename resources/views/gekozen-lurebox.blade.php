@@ -13,7 +13,7 @@
    <div class="profilechange-block">    
        <div class="top-info">
         <p class="left">Gekozen abonnement</p>
-        <a href="/lureboxes">Lurebox wijzigen</a>
+        <a href="/verander-abonnement">Lurebox wijzigen</a>
        </div>
 
        <div class="chosen-box">
