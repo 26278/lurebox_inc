@@ -320,6 +320,39 @@ footer::before{
     flex-direction: column;
     justify-content: space-around;
 }
+/* floating cart */
+.cart-float {
+    right: calc(50% - 500px);
+    z-index: 6;
+    top: 75px;
+    background: white;
+    width: 200px;
+    position: absolute;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px #0000001a;
+}
+.winkelmandje-info {
+    font-family: "OpenSans-Regular", sans-serif;
+    color: rgba(18, 93, 77, 0.5);
+    margin: 20px;
+    font-size: 15px;
+    line-height: 1.2em;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.cart-float .nav-register {
+    background: #27B295;
+    color: #fff;
+    padding: 15px 0px;
+    font-weight: 900;
+    font-family: 'Sen-Bold', sans-serif;
+}
+.cart-float .nav-register:hover {
+    background: white;
+    color: #27B295;
+}
 
 /* floating shop */
 .shop-float {

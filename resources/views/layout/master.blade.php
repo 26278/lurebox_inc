@@ -40,6 +40,20 @@
                 u inlogt kunt u het product toevoegen aan uw account. </p>
             </div>
         </div>
+        <div class="cart-float">
+            <div class="float-text">
+                <p>Winkelmandje</p>
+                <svg class="close-btn" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>            
+            </div>
+            <div class="winkelmandje-info">
+                <p>1 x</p>
+                <p>'Decent one'<br> Allround- <br> Baarsvisserij</p>
+            </div>
+            <div class="float-links">
+                <a class="nav-register" href="/gekozen-lurebox">Activeren</a>
+            </div>
+        </div>
+
         <div class="menu-float" id="profile-menu" style="opacity: 0;">
             <div class="float-text">
                 <p>Profiel</p>
