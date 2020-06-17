@@ -28,7 +28,18 @@
                 <a id="profile" ><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2m0 9c2.7 0 5.8 1.29 6 2v1H6v-.99c.2-.72 3.3-2.01 6-2.01m0-11C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"/></svg></a>
             </div>
         </div>
-
+        <div class="shop-float">
+            <div class="shop-intro">
+                <p class="bolder-text">Wij wijzen u graag op het volgende:</p>
+                <svg class="close-btn" id="shop-close" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>            
+            </div>
+            <div class="shop-text">
+            <p>Om een product toe te voegen aan uw account moet u  <br>
+                eerst ingelogd zijn. Uw product blijft in uw  <br>
+                winkelwagentje voor zolang u niet ingelogd bent.Wanneer <br>
+                u inlogt kunt u het product toevoegen aan uw account. </p>
+            </div>
+        </div>
         <div class="menu-float" id="profile-menu" style="opacity: 0;">
             <div class="float-text">
                 <p>Profiel</p>
