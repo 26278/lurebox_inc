@@ -66,7 +66,7 @@ profileClose.addEventListener('click', function(){
 });
 
 cartClose.addEventListener('click', function(){
-    openProfile.reverse();
+    openCart.reverse();
     profileMenuOpen = false;
 });
 
