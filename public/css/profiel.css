@@ -97,6 +97,7 @@
     text-decoration: none;
     font-family: "Sen-Bold", sans-serif;
     color: white;
+    box-sizing: border-box;
     min-width: 203px;
     border: none;
     margin: 8px auto;
@@ -292,7 +293,7 @@ select {
     padding: 0;
     align-items: unset;
     text-decoration: underline;
-    font-family: "Sen-Bold", sans-serif;
+    font-family: "Sen-Regular", sans-serif;
     margin-right: 50px;
     color: #27B295;
     border: none;
@@ -303,11 +304,15 @@ select {
 }
 .price-tag{
     margin-bottom: 2em;
+    font-size: 1em;
+    color: #000;
 }
 .price{
     font-size: 1.5em;
     font-family: 'Sen-Regular', sans-serif;
     margin-bottom: 20px;
+    font-weight: 100;
+    color: #000;
 }
 .box-title{
     font-family: 'OpenSans-Regular', sans-serif;
