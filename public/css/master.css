@@ -187,6 +187,7 @@ footer::before{
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 50px 0;
 }
@@ -269,6 +270,27 @@ footer::before{
     margin-left: 20px;
     font-size: 20px;
     font-family: "OpenSans-Light", sans-serif;
+}
+@media only screen and (max-width: 1000px) {
+    .footer-content{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer-frame{
+        padding: 20px 30px;
+        min-width: 210px;
+    }
+
+    .links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .copyright, .footer-link {
+        width: 210px;
+        margin: 10px 0px;
+    }
 }
 .button{
     font-family: 'Sen-Bold', sans-serif;
