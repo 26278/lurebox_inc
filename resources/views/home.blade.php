@@ -5,7 +5,7 @@
 
     <div class="container">
 
-        <div class="background-image" style="background-image: url('../assets/images/home-hero.jpg')">
+        <div class="background-image">
             <div class="top-text-container">
                 <h2 class="top-title">Maandelijks exclusief kunstaas<br>
                     voor jouw visserij</h2>
@@ -287,6 +287,13 @@
                     uit op Facebook en Instagram,<br>
                     waarbij we eenmalig wat extra<br>
                     kunstaas toevoegen aan de<br>
+                    lurebox.
+                </p>
+                <p class="text-subtitle-mobile">
+                    Elke maand kiezen we 5 posts
+                    uit op Facebook en Instagram, <br>
+                    waarbij we eenmalig wat extra
+                    kunstaas toevoegen aan de <br>
                     lurebox.
                 </p>
             </div>

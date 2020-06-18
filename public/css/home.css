@@ -17,11 +17,12 @@
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-image: url('../assets/images/home-hero.jpg')
 }
 .top-text-container{
     position: absolute;
     right: 20%;
-    top: 10%;
+    top: 20%;
     color: #fff;
     text-align: center;
     height: 50%;
@@ -47,6 +48,35 @@
     bottom: 0%;
     transform: translateY(35%);
     width: 35%;
+}
+@media only screen and (max-width: 1024px) {
+    .lurebox {
+        right: 11%;
+        bottom: 0%;
+        width: 40%;
+    }
+
+    .top-text-container {
+        right: 4%;
+        width: 80%;
+        top: 15%;
+        text-align: center;
+        height: 50%;
+    }
+
+    .background-image {
+        background-image:
+        linear-gradient(to bottom, #00000036, #00000036),
+        url('../assets/images/mobile-fisher.jpg');
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .lurebox {
+        right: 11%;
+        bottom: -10%;
+        width: 50%;
+    }
 }
 .roadmap{
     position: relative;
@@ -295,6 +325,53 @@
     text-align: center;
     height: 2em;
 }
+
+@media only screen and (max-width: 1024px) {
+    .slider-container {
+        height: 100%;
+        min-height: 0px;
+    }
+
+    .lurebox-contains {
+        margin-bottom: 20%;
+    }
+
+    .slider-wrapper {
+        width: 100%;
+    }
+
+    .slider-top {
+        flex-direction: column-reverse;
+    }
+
+    .slider-text-container {
+        padding: 4% 0;
+    }
+
+    .prev, .next {
+        padding: 16px;
+    }
+
+    .lurebox-item {
+        width: 20%;
+        height: auto;
+    }
+
+    .row-one {
+        width: 27%;
+    }
+
+    .lurename {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .lurename {
+        font-size: 9px;
+    }
+}
 /* Share section */
 .share-container{
     width: 1000px;
@@ -369,4 +446,77 @@
     max-width: 90%;
     max-height: 100%;
     box-shadow: 0px 3px 6px #0000002a;
+}
+
+.text-subtitle-mobile {
+    display: none;
+    font-family: 'OpenSans-Regular', sans-serif;
+    margin-top: .8em;
+    line-height: 1.3em;
+}
+@media only screen and (max-width: 1024px) {
+
+    .container {
+        max-width: 100%;
+    }
+  
+    .share-container{
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    .share-section {
+        flex-direction: column-reverse;
+    }
+
+    .share-title {
+        font-size: 17px;
+    }
+
+    .present {
+        width: 10%;
+    }
+
+    .text-subtitle-mobile {
+        display: flex;
+    }
+
+    .text-subtitle {
+        display: none;
+    }
+
+    .text-section {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 800px) { 
+    .roadmap {
+        flex-direction: column;
+    }
+    .step:nth-of-type(even) .step-header { 
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .step:nth-of-type(even) .step-header h2 { 
+        margin: 0 1.2em 0 0;
+    }
+
+    .step {
+        max-width: 80%;
+        margin: 0px auto;
+    }
+
+    .step-title {
+        font-size: 20px;
+    }
+    .step-number {
+        border-radius: 50%;
+        width: 1.4em;
+        height: 1.4em;
+        font-size: 28px;
+    }
 }

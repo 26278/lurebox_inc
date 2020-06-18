@@ -271,17 +271,44 @@ footer::before{
     font-size: 20px;
     font-family: "OpenSans-Light", sans-serif;
 }
-@media only screen and (max-width: 1000px) {
-    .footer-content{
-        width: 100%;
-        justify-content: center;
-    }
+
+.footer-content-mobile {
+    display: none;
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+@media only screen and (max-width: 1024px) {
 
     .footer-frame{
         padding: 20px 30px;
         min-width: 210px;
+        text-align: center;
     }
 
+    .footer-content-mobile {
+        display: unset;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-content {
+        display: none;
+    }
+
+    .footer-paragraph {
+        margin-bottom: 15px;
+        line-height: 1.2em;
+        font-weight: 100;
+    }
     .links {
         flex-wrap: wrap;
         justify-content: center;
@@ -289,7 +316,10 @@ footer::before{
 
     .copyright, .footer-link {
         width: 210px;
-        margin: 10px 0px;
+        text-align: center;
+    }
+    .copyright {
+        margin-top: 20px;
     }
 }
 .button{
@@ -465,4 +495,11 @@ footer::before{
 .close-btn:hover{
     cursor: pointer;
     fill: #32E0BC;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .shop-float {
+        display: none;
+    }
 }
