@@ -10,7 +10,10 @@
             <span>Inloggen</span>
             <div class="login-content">
                 <div class="have-acc">
-                    <span>Bestaande Klanten</span>
+                    <div>
+                        <span class="new-text">Bestaande Klanten</span>
+                    </div>
+                   
                     <input class="login-input" action="email" placeholder="E-mail adres"></input>
                     <input class="login-input" action="password" placeholder="Wachtwoord"></input>
                     <a href="/profiel" class="button">Log in</a>

@@ -162,6 +162,10 @@ nav {
     justify-content: flex-start;
     align-items: center;
 }
+
+.nav-right-mobile {
+    display: none;
+}
 @media only screen and (max-width: 800px) {
     .nav-right, .nav-middle {
         display: none;
