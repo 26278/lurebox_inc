@@ -128,14 +128,14 @@ nav {
     justify-content: flex-start;
     align-items: center;
 }
-.nav-middle  a {
+.nav-middle  a, .nav-middle-mobile a {
     padding: 24px 20px;
     color: white;
     font-family: "Sen-Regular", sans-serif;
     text-decoration: none;
     transition: .2s
 }
-.nav-middle  a:hover {
+.nav-middle  a:hover ,.nav-middle-mobile a:hover {
     background-color: #27B295;
     color: white;
 }
@@ -153,6 +153,23 @@ nav {
     fill: #32E0BC;
 }
 
+.nav-middle-mobile {
+    display: none;
+    width: 65%;
+    height: 100%;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+@media only screen and (max-width: 800px) {
+    .nav-right, .nav-middle {
+        display: none;
+    }
+    .nav-middle-mobile {
+        display: flex;
+    }
+}
 /* Putting the footer at the bottom */
 html{
     height: 100%;
