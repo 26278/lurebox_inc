@@ -169,3 +169,23 @@ input[type="radio"], .inputs input {
     font-family: 'OpenSans-Bold', sans-serif;
     margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) { 
+    .container {
+        padding: 50px 20px 50px 20px;
+    }
+
+    .register-help {
+        width: 90%;
+    }
+
+    .register-inputs div {
+        margin: 2%;
+    }
+}

@@ -128,14 +128,14 @@ nav {
     justify-content: flex-start;
     align-items: center;
 }
-.nav-middle  a {
+.nav-middle  a, .nav-middle-mobile a {
     padding: 24px 20px;
     color: white;
     font-family: "Sen-Regular", sans-serif;
     text-decoration: none;
     transition: .2s
 }
-.nav-middle  a:hover {
+.nav-middle  a:hover ,.nav-middle-mobile a:hover {
     background-color: #27B295;
     color: white;
 }
@@ -152,7 +152,31 @@ nav {
     cursor: pointer;
     fill: #32E0BC;
 }
+.menu-icon{
+    display: none;
+}
 
+.nav-middle-mobile {
+    display: none;
+    width: 65%;
+    height: 100%;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-right-mobile {
+    display: none;
+}
+@media only screen and (max-width: 800px) {
+    .nav-right, .nav-middle {
+        display: none;
+    }
+    .nav-middle-mobile {
+        display: flex;
+    }
+}
 /* Putting the footer at the bottom */
 html{
     height: 100%;
@@ -187,6 +211,7 @@ footer::before{
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 50px 0;
 }
@@ -269,6 +294,58 @@ footer::before{
     margin-left: 20px;
     font-size: 20px;
     font-family: "OpenSans-Light", sans-serif;
+}
+
+.footer-content-mobile {
+    display: none;
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    .footer-frame{
+        padding: 20px 30px;
+        min-width: 210px;
+        text-align: center;
+    }
+
+    .footer-content-mobile {
+        display: unset;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-content {
+        display: none;
+    }
+
+    .footer-paragraph {
+        margin-bottom: 15px;
+        line-height: 1.2em;
+        font-weight: 100;
+    }
+    .links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .copyright, .footer-link {
+        width: 210px;
+        text-align: center;
+    }
+    .copyright {
+        margin-top: 20px;
+    }
 }
 .button{
     font-family: 'Sen-Bold', sans-serif;
@@ -376,6 +453,7 @@ footer::before{
     border-top-left-radius: 12px;
     padding: 15px 30px 20px 30px;
     box-shadow: 0px 3px 6px #0000001a;
+    display: none;
 }
 .shop-float::after {
     content: '';
@@ -443,4 +521,32 @@ footer::before{
 .close-btn:hover{
     cursor: pointer;
     fill: #32E0BC;
+}
+.menu-icon{
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    fill: #fff;
+}
+
+@media only screen and (max-width: 1024px) {
+    .nav-content{
+        width: auto;
+    }
+    .nav-left, .nav-middle, .nav-right{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .shop-float {
+        display: none;
+    }
+    .cart-float{
+        display: none;
+    }
 }

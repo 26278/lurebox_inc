@@ -16,6 +16,7 @@
     background-image: url('../assets/images/faq.png');
     background-size: cover;
     height: 700px;
+    position: relative;
     background-repeat: no-repeat;
     width: 100%;
     background-position: center;
@@ -37,7 +38,7 @@
 
 .faq-intro {
     position: absolute;
-    top: 10%;
+    top: 50%;
     right: 43%;
     transform: translate( 75%, -50% );
     width: auto;
@@ -155,4 +156,67 @@ strong {
 }
 .bold{
     font-family: 'OpenSans-Bold', sans-serif;
+}
+
+@media only screen and (max-width: 1400px) {
+    .faq-contact {
+        padding: 50px 75px 50px 75px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 80%;
+    }
+
+    .faq-contact-left {
+        margin: 50px 0px;
+    }
+    
+    .faq-contact {
+        flex-direction: column;
+    }
+    .faq-intro {
+        right: 77%;
+        bottom: -105px;
+        top: unset;
+        width: 100%;
+        padding: 24px 31px;
+        z-index: 2;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .faq-intro span {
+        font-size: 24px;
+    }
+
+    .subheader {
+        font-size: 17px;
+        margin: 10px 0 15px 0;
+    }
+
+    .contact-block {
+        width: 250px;
+        margin-top: 74px;
+        height: 250px;
+    }
+
+    .faq-contact span:first-child {
+        font-size: 24px;
+    }
+
+    .faq-contact p {
+        font-size: 15px;
+        margin-top: 13px;
+    }
+
+    .contact-block a {
+        width: 40%;
+        padding: 9px 0;
+        font-size: 1.4em;
+        margin: 1em;
+    }
 }

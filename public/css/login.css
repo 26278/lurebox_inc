@@ -115,3 +115,24 @@
 .button{
     margin-top: 20px;
 }
+
+@media only screen and (max-width: 900px) {
+    .login-content {
+        flex-direction: column;
+    }
+
+    .green-line {
+        width: 200px;
+        height: 1px;
+    }
+
+    .have-acc, .new, .line {
+        align-items: center;
+        margin: 20px 0px;
+        width: 100%;
+    }
+
+    .new-text {
+        text-align: center;
+    }
+}
