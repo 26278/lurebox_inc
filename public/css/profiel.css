@@ -84,20 +84,19 @@
     justify-content: space-between;
 }
 
-
 @media only screen and (max-width: 1024px) {
     .profile-intro {
-        padding: 24px 31px;
+        padding: 24px 0;
         bottom: 1px;
         top: unset;
         width: 100%;
-        padding: 24px 31px;
         z-index: 2;
     }
     .container {
         width: 100%;
     }
 }
+
 .register-inputs {
     display: flex;
 }
