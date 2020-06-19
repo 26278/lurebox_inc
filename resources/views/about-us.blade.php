@@ -8,6 +8,8 @@
         <span>Over ons</span>
         <p class="light">Een team van professionals dat mooie pakketjes <br>
             met kunstaas samen stelt… Hoe zit dat?</p>
+            <p class="light-mobile">Een team van professionals dat mooie pakketjes
+                met kunstaas samen stelt… Hoe zit dat?</p>
     </div>
 </div>
 
@@ -30,7 +32,7 @@
         </div>
         <img src="/assets/images/fisher-about.png" alt="fisher" class="fisher-img">
     </div>
-    <div class="person-info">
+    <div class="person-info reverse">
          <img src="/assets/images/fisher-about.png" alt="fisher" class="fisher-img">
         <div class="matthijs">
 
