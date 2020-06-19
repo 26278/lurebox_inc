@@ -26,7 +26,7 @@
         <a class="nav-el @if($active === 'faq')nav-active @else() @endif" href="/faq">
             FAQ
         </a>
-        <a class="nav-el @if($active === 'login')nav-active @else() @endif" href="/profiel">
+        <a class="nav-el @if($active === 'login')nav-active @else() @endif" href="/registreer">
             Profiel
         </a>
         <a class="nav-el @if($active === 'winkelwagen')nav-active @else() @endif" href="/gekozen-lurebox">
