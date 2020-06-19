@@ -562,4 +562,8 @@ footer::before{
     .cart-float{
         display: none;
     }
+
+    .nav-active {
+        background: #0e493c;
+    }
 }
