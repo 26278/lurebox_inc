@@ -57,6 +57,6 @@
         </p>
         </div>
     </div>
-    <a class="button-change payment button" href="/profile">Betaalgegevens wijzigen</a>
+    <a class="button-change payment button" href="/betaalgegevens">Betaalgegevens wijzigen</a>
 </div>
 @endsection

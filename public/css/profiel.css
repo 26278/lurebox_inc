@@ -62,7 +62,7 @@
 .subscription-box,
 .profilechange-block {
     padding: 50px 50px 30px 50px;
-    width: 50%;
+    width: 60%;
     border-top: 5px #27B295 solid;
     background: white;
     color: #125D4D;
@@ -72,8 +72,7 @@
     box-shadow: 0px 3px 6px #0000001a;
     border-radius: 8px;
 }
-
-.profilechange-block, .subscription-box {
+ .profilechange-box {
     width: 100%;
 }
 .profile-block div {
@@ -126,7 +125,7 @@
 
 .subscription-box img,
 .chosen-box img {
-    max-width: 50%;
+    max-width: 400px;
     height: auto;
     margin: 0px auto;
 }
