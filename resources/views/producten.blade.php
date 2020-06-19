@@ -32,6 +32,11 @@
                     Deze box bestaat voornamelijk uit: jerkbaits, swimbaits, softbaits, crankbaits, topwaters en chatterbaits.<br>
                     Altijd geleverd met een 7strand titanium onderlijn zodat je direct aan de slag kan aan de waterkant.
                 </p>
+                <p class="desc-paragraph-mobile">
+                    Het kunstaas heeft een lengte van 8cm tot 16cm en een gewicht van 5g tot 60g.
+                    Deze box bestaat voornamelijk uit: jerkbaits, swimbaits, softbaits, crankbaits, topwaters en chatterbaits.
+                    Altijd geleverd met een 7strand titanium onderlijn zodat je direct aan de slag kan aan de waterkant.
+                </p>
             </div>
         </div>
 
