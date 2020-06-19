@@ -84,19 +84,6 @@
     justify-content: space-between;
 }
 
-@media only screen and (max-width: 1024px) {
-    .profile-intro {
-        padding: 24px 0;
-        bottom: 1px;
-        top: unset;
-        width: 100%;
-        z-index: 2;
-    }
-    .container {
-        width: 100%;
-    }
-}
-
 .register-inputs {
     display: flex;
 }
@@ -328,4 +315,99 @@ select {
 }
 .box-title{
     font-family: 'OpenSans-Regular', sans-serif;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+
+    .container span {
+        text-align: center;
+    }
+
+    .profile-intro {
+        padding: 24px 0;
+        bottom: 1px;
+        top: unset;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .profile-block, .subscription-box {
+        width: auto;
+        font-size: 16px;
+    }
+
+    .profile-block a, .subscription-box a, .profilechange-block a {
+        padding: 11px 15px;
+        min-width: 132px;
+        font-size: 16px;
+    }
+
+    .profilechange-block {
+        width: 90%;
+        padding: 50px 23px 30px 23px;
+    }
+}
+
+
+@media only screen and (max-width: 800px) { 
+    .profile {
+        height: 500px;
+    }
+    .container span:first-child {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .subscription-box img, .chosen-box img {
+        max-width: 258px;
+    }
+
+    .user-payment {
+        font-size: 16px;
+    }
+
+    .bank-help {
+        width: auto;
+    }
+
+    .firstspan {
+        margin-bottom: 10px;
+    }
+
+    .secondspan {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .subscription-box span {
+        font-size: 19px;
+    }
+
+    .left {
+        padding-left: 0px;
+    }
+
+    .top-info a {
+        margin: 20px 0px;
+        text-align: right;
+        min-width: auto;
+        font-size: auto;
+        padding: 0;
+    }
+
+    .profile-block .mobile {
+        padding: 50px 14px 50px 23px ;
+    }
+
+    .profile-block, .subscription-box {
+        width: auto;
+        font-size: 13px;
+    }
+    .left i {
+        display: none;
+    }
 }

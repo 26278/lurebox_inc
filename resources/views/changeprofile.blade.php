@@ -10,8 +10,8 @@
 </div>
 
 <div class="container">
-   <span>Account Gegevens</span> 
-   <span class="subspan">Persoonlijke gegevens bewerken</span>
+   <span class="firstspan">Account Gegevens</span> 
+   <span class="subspan secondspan">Persoonlijke gegevens bewerken</span>
 
    
    <div class="profilechange-block">

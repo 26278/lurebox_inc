@@ -29,7 +29,7 @@
         <a class="nav-el @if($active === 'login')nav-active @else() @endif" href="/profiel">
             Profiel
         </a>
-        <a class="nav-el @if($active === 'winkelwagen')nav-active @else() @endif" href="/winkelwagen">
+        <a class="nav-el @if($active === 'winkelwagen')nav-active @else() @endif" href="/gekozen-lurebox">
             Winkelwagen
         </a>
     </div>

@@ -10,7 +10,7 @@
 </div>
 
 <div class="container">
-   <div class="profilechange-block">    
+   <div class="profilechange-block mobile">    
        <div class="top-info">
         <p class="left">Gekozen abonnement</p>
         <a href="/verander-abonnement">Lurebox wijzigen</a>
