@@ -537,8 +537,21 @@ footer::before{
     .nav-content{
         width: auto;
     }
-    .nav-left, .nav-middle, .nav-right{
+    .nav-middle, .nav-right{
         display: none;
+    }
+    .nav-left {
+        margin-left: 20px;
+        z-index: 2;
+    }
+    .sidenav{
+        z-index: 999;
+        font-family: 'Sen-Bold', sans-serif;
+    }
+    .nav-middle-mobile a {
+        padding: 25px 20px;
+        font-size: 18px;
+        font-family: 'Sen-Bold', sans-serif;
     }
     .menu-icon{
         display: block;

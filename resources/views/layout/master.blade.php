@@ -17,13 +17,13 @@
         <a class="nav-el @if($active === 'home')nav-active @else() @endif" href="/">
             Home
         </a>
-        <a class="nav-el @if($active === 'producten')nav-active @else() @endif" href="/projecten">
+        <a class="nav-el @if($active === 'producten')nav-active @else() @endif" href="/producten">
             Lureboxes
         </a>
-        <a class="nav-el @if($active === 'over-ons')nav-active @else() @endif" href="/over-mij">
+        <a class="nav-el @if($active === 'over-ons')nav-active @else() @endif" href="/over-ons">
             About us
         </a>
-        <a class="nav-el @if($active === 'faq')nav-active @else() @endif" href="/contact">
+        <a class="nav-el @if($active === 'faq')nav-active @else() @endif" href="/faq">
             FAQ
         </a>
         <a class="nav-el @if($active === 'login')nav-active @else() @endif" href="/profiel">
